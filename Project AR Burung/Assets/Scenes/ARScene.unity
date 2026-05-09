@@ -549,10 +549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ce8dd547a3d09d4cb367adec6c5500a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fusionResult: {fileID: 2874676426858611518, guid: 4517e49d7abf7cb4e93b799fe32e08c9,
-    type: 3}
-  spawnPoint: {fileID: 68027294}
-  TagBenda: Berbahaya
 --- !u!65 &326860356
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -586,8 +582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae1d38c3794c6d54ba5856b5b5d1fd96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PopUp: {fileID: 1076361010}
-  isEnabled: 0
 --- !u!95 &326860358
 Animator:
   serializedVersion: 5
@@ -844,8 +838,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a651fdd8641df042b50dd419316cbc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  PopUp: {fileID: 0}
 --- !u!114 &388655186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1411,8 +1403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01b7377c3f407da4eada61ee0e64a759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ARCamera: {fileID: 0}
-  PopCanvas: {fileID: 0}
 --- !u!114 &1076361012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1806,8 +1796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da45aed53b67004b8aa10af5479cc0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BackScene: MenuAplikasi
-  NextScene: 
 --- !u!1 &1475441762
 GameObject:
   m_ObjectHideFlags: 0
@@ -2106,7 +2094,6 @@ GameObject:
   - component: {fileID: 1718025339}
   - component: {fileID: 1718025342}
   - component: {fileID: 1718025341}
-  - component: {fileID: 1718025340}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -2129,28 +2116,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 169492125430881443}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &1718025340
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1718025338}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1718025341
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7670,8 +7635,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae1d38c3794c6d54ba5856b5b5d1fd96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PopUp: {fileID: 1194716789678104899}
-  isEnabled: 0
 --- !u!23 &4455597745650416847
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8041,8 +8004,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01b7377c3f407da4eada61ee0e64a759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ARCamera: {fileID: 0}
-  PopCanvas: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
