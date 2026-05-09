@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="gatotkacaposterrgb" size="1.000000 1.414516" />
+    <ImageTarget name="tulangikankarakter" size="1.000000 1.000000" />
+    <ImageTarget name="lampukarakter" size="1.000000 1.000000" />
+    <ImageTarget name="kalengkarakter" size="1.000000 1.000000" />
+    <ImageTarget name="botolkarakter" size="1.000000 1.000000" />
+    <ImageTarget name="batrekarakter" size="1.000000 1.000000" />
+    <ImageTarget name="apelkarakter" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
