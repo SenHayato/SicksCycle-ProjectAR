@@ -2981,7 +2981,7 @@ GameObject:
   - component: {fileID: 1439730384}
   - component: {fileID: 1439730383}
   m_Layer: 0
-  m_Name: Page2Marker
+  m_Name: Page2-3Marker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3360,7 +3360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1674663719}
   m_Layer: 0
-  m_Name: Page 2
+  m_Name: Page 2-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3563,7 +3563,7 @@ GameObject:
   - component: {fileID: 1862925469}
   - component: {fileID: 1862925470}
   m_Layer: 0
-  m_Name: Page 2 AR
+  m_Name: Page 2-3 AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
