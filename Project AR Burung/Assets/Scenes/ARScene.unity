@@ -1489,7 +1489,7 @@ GameObject:
   - component: {fileID: 93430834}
   - component: {fileID: 93430833}
   - component: {fileID: 93430832}
-  - component: {fileID: 93430831}
+  - component: {fileID: 93430835}
   m_Layer: 0
   m_Name: Page8-9Marker
   m_TagString: Untagged
@@ -1497,25 +1497,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &93430831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 93430830}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 93430833}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 93430833}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &93430832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1610,7 +1591,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 93430831}
+  mPreview: {fileID: 93430835}
 --- !u!4 &93430834
 Transform:
   m_ObjectHideFlags: 0
@@ -1627,6 +1608,25 @@ Transform:
   - {fileID: 1896768398}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &93430835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93430830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 93430833}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 93430833}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &138174572
 GameObject:
   m_ObjectHideFlags: 0
@@ -1806,7 +1806,7 @@ GameObject:
   - component: {fileID: 169946186}
   - component: {fileID: 169946185}
   - component: {fileID: 169946184}
-  - component: {fileID: 169946183}
+  - component: {fileID: 169946187}
   m_Layer: 0
   m_Name: Page20-21Marker
   m_TagString: Untagged
@@ -1814,25 +1814,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &169946183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 169946182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 169946185}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 169946185}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &169946184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1927,7 +1908,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 169946183}
+  mPreview: {fileID: 169946187}
 --- !u!4 &169946186
 Transform:
   m_ObjectHideFlags: 0
@@ -1944,6 +1925,25 @@ Transform:
   - {fileID: 302748625}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &169946187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169946182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 169946185}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 169946185}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &175359737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,7 +2601,7 @@ GameObject:
   - component: {fileID: 222397498}
   - component: {fileID: 222397497}
   - component: {fileID: 222397496}
-  - component: {fileID: 222397495}
+  - component: {fileID: 222397499}
   m_Layer: 0
   m_Name: Page12-13Marker
   m_TagString: Untagged
@@ -2609,25 +2609,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &222397495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222397494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 222397497}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 222397497}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &222397496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2722,7 +2703,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 222397495}
+  mPreview: {fileID: 222397499}
 --- !u!4 &222397498
 Transform:
   m_ObjectHideFlags: 0
@@ -2739,6 +2720,25 @@ Transform:
   - {fileID: 1504859199}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &222397499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222397494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 222397497}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 222397497}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &224791467
 GameObject:
   m_ObjectHideFlags: 0
@@ -7991,7 +7991,7 @@ GameObject:
   - component: {fileID: 532730069}
   - component: {fileID: 532730068}
   - component: {fileID: 532730067}
-  - component: {fileID: 532730066}
+  - component: {fileID: 532730070}
   m_Layer: 0
   m_Name: Page30-31Marker
   m_TagString: Untagged
@@ -7999,25 +7999,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &532730066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532730065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 532730068}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 532730068}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &532730067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8112,7 +8093,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 532730066}
+  mPreview: {fileID: 532730070}
 --- !u!4 &532730069
 Transform:
   m_ObjectHideFlags: 0
@@ -8129,6 +8110,25 @@ Transform:
   - {fileID: 397719943}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &532730070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532730065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 532730068}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 532730068}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &563155080
 GameObject:
   m_ObjectHideFlags: 0
@@ -8224,7 +8224,7 @@ GameObject:
   - component: {fileID: 574116443}
   - component: {fileID: 574116442}
   - component: {fileID: 574116441}
-  - component: {fileID: 574116440}
+  - component: {fileID: 574116444}
   m_Layer: 0
   m_Name: Page18-19Marker
   m_TagString: Untagged
@@ -8232,25 +8232,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &574116440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574116439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 574116442}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 574116442}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &574116441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8345,7 +8326,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 574116440}
+  mPreview: {fileID: 574116444}
 --- !u!4 &574116443
 Transform:
   m_ObjectHideFlags: 0
@@ -8362,6 +8343,25 @@ Transform:
   - {fileID: 1916587417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &574116444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574116439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 574116442}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 574116442}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &577469825
 GameObject:
   m_ObjectHideFlags: 0
@@ -8659,7 +8659,7 @@ GameObject:
   - component: {fileID: 623566464}
   - component: {fileID: 623566463}
   - component: {fileID: 623566462}
-  - component: {fileID: 623566461}
+  - component: {fileID: 623566465}
   m_Layer: 0
   m_Name: Page32-33Marker
   m_TagString: Untagged
@@ -8667,25 +8667,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &623566461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 623566460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 623566463}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 623566463}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &623566462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8780,7 +8761,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 623566461}
+  mPreview: {fileID: 623566465}
 --- !u!4 &623566464
 Transform:
   m_ObjectHideFlags: 0
@@ -8797,6 +8778,25 @@ Transform:
   - {fileID: 322649417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &623566465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623566460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 623566463}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 623566463}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &626175116
 GameObject:
   m_ObjectHideFlags: 0
@@ -12179,7 +12179,7 @@ GameObject:
   - component: {fileID: 843822712}
   - component: {fileID: 843822711}
   - component: {fileID: 843822710}
-  - component: {fileID: 843822709}
+  - component: {fileID: 843822713}
   m_Layer: 0
   m_Name: Page24-25Marker
   m_TagString: Untagged
@@ -12187,25 +12187,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &843822709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 843822708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 843822711}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 843822711}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &843822710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12300,7 +12281,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 843822709}
+  mPreview: {fileID: 843822713}
 --- !u!4 &843822712
 Transform:
   m_ObjectHideFlags: 0
@@ -12317,6 +12298,25 @@ Transform:
   - {fileID: 1236927952}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &843822713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843822708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 843822711}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 843822711}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &844278244
 GameObject:
   m_ObjectHideFlags: 0
@@ -13231,7 +13231,7 @@ Transform:
   - {fileID: 5833369981023740085}
   - {fileID: 375209474}
   - {fileID: 221284330}
-  - {fileID: 1424351047}
+  - {fileID: 2051501950}
   - {fileID: 694176404}
   m_Father: {fileID: 930824681}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
@@ -15391,6 +15391,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058417174}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1060840226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1060840227}
+  m_Layer: 0
+  m_Name: Kepala
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1060840227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060840226}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.67, y: 1.9, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1414108892}
+  m_Father: {fileID: 2051501950}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074093622
 GameObject:
   m_ObjectHideFlags: 0
@@ -15529,7 +15561,7 @@ GameObject:
   - component: {fileID: 1093221036}
   - component: {fileID: 1093221035}
   - component: {fileID: 1093221034}
-  - component: {fileID: 1093221033}
+  - component: {fileID: 1093221037}
   m_Layer: 0
   m_Name: Page6-7Marker
   m_TagString: Untagged
@@ -15537,25 +15569,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1093221033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1093221032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1093221035}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1093221035}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1093221034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15650,7 +15663,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1093221033}
+  mPreview: {fileID: 1093221037}
 --- !u!4 &1093221036
 Transform:
   m_ObjectHideFlags: 0
@@ -15667,6 +15680,25 @@ Transform:
   - {fileID: 358423997}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1093221037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093221032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1093221035}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1093221035}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1100904157
 GameObject:
   m_ObjectHideFlags: 0
@@ -18053,7 +18085,7 @@ GameObject:
   - component: {fileID: 1236795666}
   - component: {fileID: 1236795665}
   - component: {fileID: 1236795664}
-  - component: {fileID: 1236795663}
+  - component: {fileID: 1236795667}
   m_Layer: 0
   m_Name: Page26-27Marker
   m_TagString: Untagged
@@ -18061,25 +18093,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1236795663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1236795662}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1236795665}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1236795665}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1236795664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18174,7 +18187,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1236795663}
+  mPreview: {fileID: 1236795667}
 --- !u!4 &1236795666
 Transform:
   m_ObjectHideFlags: 0
@@ -18191,6 +18204,25 @@ Transform:
   - {fileID: 338042382}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1236795667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236795662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1236795665}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1236795665}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1236927951
 GameObject:
   m_ObjectHideFlags: 0
@@ -20807,12 +20839,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414108888}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.77223, y: 0.1, z: -3.789485}
-  m_LocalScale: {x: 1.049977, y: 0.35331124, z: 0.37941647}
-  m_ConstrainProportionsScale: 1
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
+  m_LocalScale: {x: 0.28171536, y: 0.20128943, z: 0.20684506}
+  m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1424351047}
+  m_Father: {fileID: 1060840227}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: -90}
 --- !u!1 &1421828241
 GameObject:
@@ -20918,7 +20950,7 @@ GameObject:
   - component: {fileID: 1422962435}
   - component: {fileID: 1422962434}
   - component: {fileID: 1422962433}
-  - component: {fileID: 1422962432}
+  - component: {fileID: 1422962436}
   m_Layer: 0
   m_Name: Page4-5Marker
   m_TagString: Untagged
@@ -20926,25 +20958,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1422962432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1422962431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1422962434}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1422962434}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1422962433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21039,7 +21052,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1422962432}
+  mPreview: {fileID: 1422962436}
 --- !u!4 &1422962435
 Transform:
   m_ObjectHideFlags: 0
@@ -21056,6 +21069,25 @@ Transform:
   - {fileID: 577469826}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1422962436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422962431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1422962434}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1422962434}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1424351043
 GameObject:
   m_ObjectHideFlags: 0
@@ -21068,7 +21100,7 @@ GameObject:
   - component: {fileID: 1424351046}
   - component: {fileID: 1424351045}
   m_Layer: 0
-  m_Name: Burung Kanan
+  m_Name: Bdn Burung Kanan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21132,13 +21164,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424351043}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.70710677, z: -0.70710677, w: 0}
-  m_LocalPosition: {x: 4.5302, y: -1.0436, z: -3.2}
-  m_LocalScale: {x: 0.26830631, y: 0.5697229, z: 0.5451663}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26830623, y: 0.5697227, z: 0.5451662}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 1414108892}
-  m_Father: {fileID: 902702820}
+  m_Children: []
+  m_Father: {fileID: 2051501950}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: -90}
 --- !u!1 &1425508410
 GameObject:
@@ -21351,7 +21382,7 @@ GameObject:
   - component: {fileID: 1439730386}
   - component: {fileID: 1439730385}
   - component: {fileID: 1439730384}
-  - component: {fileID: 1439730383}
+  - component: {fileID: 1439730387}
   m_Layer: 0
   m_Name: Page2-3Marker
   m_TagString: Untagged
@@ -21359,25 +21390,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1439730383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439730382}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1439730385}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1439730385}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1439730384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21472,7 +21484,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1439730383}
+  mPreview: {fileID: 1439730387}
 --- !u!4 &1439730386
 Transform:
   m_ObjectHideFlags: 0
@@ -21489,6 +21501,25 @@ Transform:
   - {fileID: 1674663719}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1439730387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439730382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1439730385}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1439730385}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1445556522
 GameObject:
   m_ObjectHideFlags: 0
@@ -22045,7 +22076,7 @@ GameObject:
   - component: {fileID: 1491536033}
   - component: {fileID: 1491536032}
   - component: {fileID: 1491536031}
-  - component: {fileID: 1491536030}
+  - component: {fileID: 1491536034}
   m_Layer: 0
   m_Name: Page22-23Marker
   m_TagString: Untagged
@@ -22053,25 +22084,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1491536030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491536029}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1491536032}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1491536032}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1491536031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22166,7 +22178,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1491536030}
+  mPreview: {fileID: 1491536034}
 --- !u!4 &1491536033
 Transform:
   m_ObjectHideFlags: 0
@@ -22183,6 +22195,25 @@ Transform:
   - {fileID: 988374034}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1491536034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1491536029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1491536032}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1491536032}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1493396768
 GameObject:
   m_ObjectHideFlags: 0
@@ -24334,7 +24365,7 @@ GameObject:
   - component: {fileID: 1673066576}
   - component: {fileID: 1673066575}
   - component: {fileID: 1673066574}
-  - component: {fileID: 1673066573}
+  - component: {fileID: 1673066577}
   m_Layer: 0
   m_Name: Page34Marker
   m_TagString: Untagged
@@ -24342,25 +24373,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1673066573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1673066572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1673066575}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1673066575}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1673066574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24455,7 +24467,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1673066573}
+  mPreview: {fileID: 1673066577}
 --- !u!4 &1673066576
 Transform:
   m_ObjectHideFlags: 0
@@ -24472,6 +24484,25 @@ Transform:
   - {fileID: 1768915531}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1673066577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673066572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1673066575}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1673066575}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1673874917
 GameObject:
   m_ObjectHideFlags: 0
@@ -25431,7 +25462,7 @@ GameObject:
   - component: {fileID: 1774392586}
   - component: {fileID: 1774392585}
   - component: {fileID: 1774392584}
-  - component: {fileID: 1774392583}
+  - component: {fileID: 1774392587}
   m_Layer: 0
   m_Name: Page10-11Marker
   m_TagString: Untagged
@@ -25439,25 +25470,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1774392583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1774392582}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1774392585}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1774392585}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1774392584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25552,7 +25564,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1774392583}
+  mPreview: {fileID: 1774392587}
 --- !u!4 &1774392586
 Transform:
   m_ObjectHideFlags: 0
@@ -25569,6 +25581,25 @@ Transform:
   - {fileID: 884168284}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1774392587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774392582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1774392585}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1774392585}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1782662537
 GameObject:
   m_ObjectHideFlags: 0
@@ -27471,7 +27502,7 @@ GameObject:
   - component: {fileID: 1930324325}
   - component: {fileID: 1930324324}
   - component: {fileID: 1930324323}
-  - component: {fileID: 1930324322}
+  - component: {fileID: 1930324326}
   m_Layer: 0
   m_Name: Page14-15Marker
   m_TagString: Untagged
@@ -27479,25 +27510,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1930324322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1930324321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1930324324}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 1930324324}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1930324323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27592,7 +27604,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1930324322}
+  mPreview: {fileID: 1930324326}
 --- !u!4 &1930324325
 Transform:
   m_ObjectHideFlags: 0
@@ -27609,6 +27621,25 @@ Transform:
   - {fileID: 7727165}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1930324326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930324321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1930324324}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 1930324324}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1930446831
 GameObject:
   m_ObjectHideFlags: 0
@@ -29085,7 +29116,7 @@ GameObject:
   - component: {fileID: 2045624570}
   - component: {fileID: 2045624569}
   - component: {fileID: 2045624568}
-  - component: {fileID: 2045624567}
+  - component: {fileID: 2045624571}
   m_Layer: 0
   m_Name: Page28-29Marker
   m_TagString: Untagged
@@ -29093,25 +29124,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2045624567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045624566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2045624569}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 2045624569}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2045624568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29206,7 +29218,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2045624567}
+  mPreview: {fileID: 2045624571}
 --- !u!4 &2045624570
 Transform:
   m_ObjectHideFlags: 0
@@ -29223,6 +29235,25 @@ Transform:
   - {fileID: 2146882379}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045624571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045624566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2045624569}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 2045624569}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2047976237
 GameObject:
   m_ObjectHideFlags: 0
@@ -29329,6 +29360,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047976237}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2051501949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2051501950}
+  m_Layer: 0
+  m_Name: Burung Kanan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2051501950
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051501949}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.58, y: -0.99, z: -3.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1424351047}
+  - {fileID: 1060840227}
+  m_Father: {fileID: 902702820}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065668053
 GameObject:
   m_ObjectHideFlags: 0
@@ -30062,7 +30126,7 @@ GameObject:
   - component: {fileID: 2132468723}
   - component: {fileID: 2132468722}
   - component: {fileID: 2132468721}
-  - component: {fileID: 2132468720}
+  - component: {fileID: 2132468724}
   m_Layer: 0
   m_Name: Page16-17Marker
   m_TagString: Untagged
@@ -30070,25 +30134,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2132468720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132468719}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 2132468722}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
-  mCastedBehaviour: {fileID: 2132468722}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &2132468721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30183,7 +30228,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 2132468720}
+  mPreview: {fileID: 2132468724}
 --- !u!4 &2132468723
 Transform:
   m_ObjectHideFlags: 0
@@ -30200,6 +30245,25 @@ Transform:
   - {fileID: 665608439}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2132468724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132468719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 2132468722}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: apelkarakter
+  mDatasetName: Vuforia/EdukasiSampah.xml
+  mCastedBehaviour: {fileID: 2132468722}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &2146882378
 GameObject:
   m_ObjectHideFlags: 0
