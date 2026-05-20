@@ -10305,6 +10305,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 713484310}
+  - component: {fileID: 713484311}
   m_Layer: 0
   m_Name: Burung 2
   m_TagString: Untagged
@@ -10330,6 +10331,22 @@ Transform:
   - {fileID: 731978034}
   m_Father: {fileID: 1862925469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &713484311
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713484309}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 1329db81c9feb6b438b288119c95cd82, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 1329db81c9feb6b438b288119c95cd82, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &714033483
 GameObject:
   m_ObjectHideFlags: 0
@@ -10763,6 +10780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 757144364}
+  - component: {fileID: 757144365}
   m_Layer: 0
   m_Name: Burung 1
   m_TagString: Untagged
@@ -10788,6 +10806,22 @@ Transform:
   - {fileID: 1969395239}
   m_Father: {fileID: 1862925469}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!111 &757144365
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757144363}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 90b30e5359f7d6343961a3c380693880, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 90b30e5359f7d6343961a3c380693880, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &760427716
 GameObject:
   m_ObjectHideFlags: 0
