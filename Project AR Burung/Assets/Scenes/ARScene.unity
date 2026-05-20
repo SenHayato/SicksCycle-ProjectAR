@@ -1673,6 +1673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationType: 0
+  introAnimation: {fileID: 0}
   startRotation: 9
   endRotation: -1.5
   startPosition: {x: 0, y: 0, z: 0}
@@ -8545,6 +8546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationType: 1
+  introAnimation: {fileID: 0}
   startRotation: 0
   endRotation: 0
   startPosition: {x: 0.72, y: 6.71, z: 0}
@@ -29513,6 +29515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationType: 0
+  introAnimation: {fileID: 0}
   startRotation: 5
   endRotation: -5
   startPosition: {x: 0, y: 0, z: 0}

@@ -8,6 +8,7 @@ public class AssetAnimation : MonoBehaviour
 {
     [Header("Animation Move")]
     [SerializeField] AnimationType animationType;
+    [SerializeField] Animation introAnimation;
 
     [ShowIf(nameof(animationType), AnimationType.Rotate)]
     [SerializeField] float startRotation, endRotation;
@@ -35,11 +36,20 @@ public class AssetAnimation : MonoBehaviour
                 transform.localPosition = startPosition;
                 break;
         }
+
+        introAnimation = GetComponent<Animation>();
     }
 
     private void Start()
     {
-        PlayAnimation();
+        if (introAnimation != null)
+        {
+            Invoke(nameof(PlayAnimation), introAnimation.clip.length);
+        }
+        else
+        {
+            PlayAnimation();
+        }
     }
 
     void PlayAnimation()
@@ -53,10 +63,5 @@ public class AssetAnimation : MonoBehaviour
                 transform.DOLocalMove(endPosition, animationDuration).SetEase(animationEase).SetLoops(-1, LoopType.Yoyo);
                 break;
         }
-    }
-
-    void Update()
-    {
-        //PlayAnimation();
     }
 }
