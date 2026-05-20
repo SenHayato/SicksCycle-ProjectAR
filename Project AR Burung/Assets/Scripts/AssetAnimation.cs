@@ -10,10 +10,10 @@ public class AssetAnimation : MonoBehaviour
     [SerializeField] AnimationType animationType;
 
     [ShowIf(nameof(animationType), AnimationType.Rotate)]
-    [SerializeField] float endRotation;
+    [SerializeField] float startRotation, endRotation;
 
     [ShowIf(nameof(animationType), AnimationType.Position)]
-    [SerializeField] float endPosition;
+    [SerializeField] Vector3 startPosition,endPosition;
 
     [Header("DG Set Up")]
     [SerializeField] float animationDuration;
@@ -22,6 +22,19 @@ public class AssetAnimation : MonoBehaviour
     private enum AnimationType
     {
         Rotate, Position
+    }
+
+    private void Awake()
+    {
+        switch (animationType)
+        {
+            case AnimationType.Rotate:
+                transform.localRotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, startRotation);
+                break;
+            case AnimationType.Position:
+                transform.localPosition = startPosition;
+                break;
+        }
     }
 
     private void Start()
@@ -37,7 +50,7 @@ public class AssetAnimation : MonoBehaviour
                 transform.DOLocalRotate(new Vector3(0f, 0f, endRotation), animationDuration).SetEase(animationEase).SetLoops(-1, LoopType.Yoyo);
                 break;
             case AnimationType.Position:
-                transform.DOMoveY(endPosition, animationDuration).SetEase(animationEase).SetLoops(-1, LoopType.Yoyo);
+                transform.DOLocalMove(endPosition, animationDuration).SetEase(animationEase).SetLoops(-1, LoopType.Yoyo);
                 break;
         }
     }
