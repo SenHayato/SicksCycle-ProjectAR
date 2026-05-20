@@ -10,10 +10,10 @@ public class AssetAnimation : MonoBehaviour
     [SerializeField] AnimationType animationType;
 
     [ShowIf(nameof(animationType), AnimationType.Rotate)]
-    [SerializeField] int endRotation;
+    [SerializeField] float endRotation;
 
     [ShowIf(nameof(animationType), AnimationType.Position)]
-    [SerializeField] int endPosition;
+    [SerializeField] float endPosition;
 
     [Header("DG Set Up")]
     [SerializeField] float animationDuration;
