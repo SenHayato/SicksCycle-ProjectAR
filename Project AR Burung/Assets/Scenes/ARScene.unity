@@ -7146,6 +7146,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 482829669}
+  - component: {fileID: 482829671}
   - component: {fileID: 482829670}
   m_Layer: 0
   m_Name: Badan Burung 2
@@ -7222,6 +7223,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &482829671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482829668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 1
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: -11.43, y: -1.74, z: -1}
+  endPosition: {x: -11.43, y: -1.12, z: -1}
+  animationDuration: 0.5
+  animationEase: 3
 --- !u!1 &489548498
 GameObject:
   m_ObjectHideFlags: 0
@@ -9473,6 +9494,37 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &672894535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 672894536}
+  m_Layer: 0
+  m_Name: '===================== '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &672894536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672894535}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.812098, y: 0.49374917, z: -0.861106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &676684502
 GameObject:
   m_ObjectHideFlags: 0
@@ -27132,6 +27184,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1903418049}
+  - component: {fileID: 1903418051}
+  - component: {fileID: 1903418052}
   - component: {fileID: 1903418050}
   m_Layer: 0
   m_Name: Burung 1
@@ -27207,6 +27261,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1903418051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903418048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 1
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: 8.96, y: 3.05, z: -4}
+  endPosition: {x: 8.96, y: 1.27, z: -4}
+  animationDuration: 3
+  animationEase: 4
+--- !u!111 &1903418052
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1903418048}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 98861707c36baec49878ee05f40d15ce, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 98861707c36baec49878ee05f40d15ce, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1903775938
 GameObject:
   m_ObjectHideFlags: 0
@@ -30676,3 +30766,4 @@ SceneRoots:
   - {fileID: 532730069}
   - {fileID: 623566464}
   - {fileID: 1673066576}
+  - {fileID: 672894536}
