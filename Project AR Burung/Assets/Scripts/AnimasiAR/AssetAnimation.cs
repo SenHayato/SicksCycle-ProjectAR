@@ -42,7 +42,7 @@ public class AssetAnimation : MonoBehaviour
     {
         if (introAnimation != null)
         {
-            Invoke(nameof(PlayAnimation), introAnimation.clip.length + 0.5f);
+            Invoke(nameof(PlayAnimation), introAnimation.clip.length + 0.2f);
         }
         else
         {
