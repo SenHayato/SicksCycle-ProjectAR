@@ -736,11 +736,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 679234381}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 31415841}
 --- !u!1 &39004933
 GameObject:
@@ -884,11 +882,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 2004487385}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 39004935}
 --- !u!1 &50640986
 GameObject:
@@ -1441,11 +1437,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 288527250}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 80992430}
 --- !u!1 &93430830
 GameObject:
@@ -3445,11 +3439,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1687442684}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 284041296}
 --- !u!1 &285953237
 GameObject:
@@ -4792,11 +4784,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1123209093}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 382473818}
 --- !u!1 &382628653
 GameObject:
@@ -6792,6 +6782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 475317087}
+  - component: {fileID: 475317090}
   - component: {fileID: 475317088}
   - component: {fileID: 475317089}
   m_Layer: 0
@@ -6829,11 +6820,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1934466941}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 475317089}
 --- !u!82 &475317089
 AudioSource:
@@ -6931,6 +6920,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &475317090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475317086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: 
+    voiceClip: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogueAudio: {fileID: 0}
 --- !u!1 &475619438
 GameObject:
   m_ObjectHideFlags: 0
@@ -7073,11 +7079,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1699858318}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 475619440}
 --- !u!1 &476342835
 GameObject:
@@ -7864,11 +7868,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1451908777}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 497523364}
 --- !u!1 &506700537
 GameObject:
@@ -8463,11 +8465,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 680913066}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 530282545}
 --- !u!1 &532730065
 GameObject:
@@ -12916,11 +12916,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 776861451}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 818744431}
 --- !u!1 &837924954
 GameObject:
@@ -15998,11 +15996,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 394278590}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 1057789897}
 --- !u!1 &1058417174
 GameObject:
@@ -19524,11 +19520,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 714033485}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 1261121614}
 --- !u!1 &1270049660
 GameObject:
@@ -21094,11 +21088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1712056175}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 1339656218}
 --- !u!1 &1341257990
 GameObject:
@@ -24222,11 +24214,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1125874409}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 1555685795}
 --- !u!1 &1561519910
 GameObject:
@@ -26772,11 +26762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 382628655}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 1753737309}
 --- !u!1 &1754903621
 GameObject:
@@ -27419,11 +27407,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1942019983}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 1803964305}
 --- !u!1 &1811091907
 GameObject:
@@ -30203,11 +30189,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 996292935}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 1973330538}
 --- !u!1 &1976676665
 GameObject:
@@ -31859,11 +31843,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90224e60eb622b141a650ec48fa69e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleCount: 0
-  subtitles:
-  - Test 1
-  - Test 2
+  subtitles: []
   subtitleText: {fileID: 1162849980}
+  audioClip: {fileID: 0}
   voiceSource: {fileID: 2116871351}
 --- !u!1 &2117708535
 GameObject:
