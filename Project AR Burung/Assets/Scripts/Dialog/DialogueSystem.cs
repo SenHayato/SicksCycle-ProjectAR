@@ -21,6 +21,14 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] AudioSource dialogueAudio;
 
+    private void Awake()
+    {
+        if (!dialogueText.enabled)
+        {
+            dialogueText.enabled = true;
+        }
+    }
+
     private void Start()
     {
         StartCoroutine(PlayDialogue());
@@ -42,5 +50,7 @@ public class DialogueSystem : MonoBehaviour
 
             currentIndex++;
         }
+
+        dialogueText.enabled = false;
     }
 }
