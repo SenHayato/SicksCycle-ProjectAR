@@ -36,15 +36,13 @@ public class AssetAnimation : MonoBehaviour
                 transform.localPosition = startPosition;
                 break;
         }
-
-        introAnimation = GetComponent<Animation>();
     }
 
     private void Start()
     {
         if (introAnimation != null)
         {
-            Invoke(nameof(PlayAnimation), introAnimation.clip.length);
+            Invoke(nameof(PlayAnimation), introAnimation.clip.length + 0.5f);
         }
         else
         {
