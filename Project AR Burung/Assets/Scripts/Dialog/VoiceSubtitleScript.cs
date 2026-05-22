@@ -42,7 +42,7 @@ public class VoiceSubtitleScript : MonoBehaviour
             }
         }
 
-        subtitleText.text = "";
+        //subtitleText.text = "";
     }
 
     void Update()
