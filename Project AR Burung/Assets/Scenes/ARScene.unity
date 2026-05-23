@@ -17875,6 +17875,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1057789896}
+  - component: {fileID: 1057789898}
   - component: {fileID: 1057789897}
   m_Layer: 0
   m_Name: Voice
@@ -17995,6 +17996,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1057789898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057789895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Ornamen Umaek Potong Jang berbentuk ukiran dan lukisan.\r\nAda gambar
+      bintang seperti Matahari. Ada lukisan meliuk seperti gelombang.\nAda yang seperti
+      gambar kepak sayap burung.\r "
+    voiceClip: {fileID: 8300000, guid: 95c985685f1d63347b4c482ca9df9bfd, type: 3}
+  dialogueText: {fileID: 394278590}
+  dialogueAudio: {fileID: 1057789897}
 --- !u!1 &1058417174
 GameObject:
   m_ObjectHideFlags: 0
@@ -21547,6 +21567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1261121613}
+  - component: {fileID: 1261121615}
   - component: {fileID: 1261121614}
   m_Layer: 0
   m_Name: Voice
@@ -21667,6 +21688,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1261121615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261121612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Umaek Potong Jang berbentuk rumah panggung. Atapnya terbuat dari daun
+      rumbia.\nAda tangga di sisi rumah menuju ke barendo (teras). \nDi bagian dalam
+      ada ruang terbuka.\r\nDi sana, anggota keluarga berkumpul atau tidur.\r"
+    voiceClip: {fileID: 8300000, guid: 3b42bd77afe2b63469a6c38e55be4cd3, type: 3}
+  dialogueText: {fileID: 714033485}
+  dialogueAudio: {fileID: 1261121614}
 --- !u!1 &1270049660
 GameObject:
   m_ObjectHideFlags: 0
