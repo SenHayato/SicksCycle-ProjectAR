@@ -5492,6 +5492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 382473817}
+  - component: {fileID: 382473819}
   - component: {fileID: 382473818}
   m_Layer: 0
   m_Name: Voice
@@ -5612,6 +5613,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &382473819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 382473816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Ada satu kamar untuk orang tua. Anak-anak tidur dan beristirahat di ruang
+      terbuka, \nkecuali anak perempuan.\r\nAnak perempuan akan tidur di bagian atas
+      rumah.\r\nTepatnya di loteng atau geligei.\r"
+    voiceClip: {fileID: 8300000, guid: a0f164249167525479bb1f6624fc628b, type: 3}
+  dialogueText: {fileID: 1123209093}
+  dialogueAudio: {fileID: 382473818}
 --- !u!1 &382628653
 GameObject:
   m_ObjectHideFlags: 0
@@ -8084,7 +8104,7 @@ MonoBehaviour:
   startPosition: {x: -11.43, y: -1.74, z: -1}
   endPosition: {x: -11.43, y: -1.12, z: -1}
   animationDuration: 0.5
-  timeBeforeTween: 0
+  timeBeforeTween: 0.5
   animationEase: 3
 --- !u!1 &486401249
 GameObject:
@@ -8296,6 +8316,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 497523363}
+  - component: {fileID: 497523365}
   - component: {fileID: 497523364}
   m_Layer: 0
   m_Name: Voice
@@ -8416,6 +8437,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &497523365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497523362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Ada bangunan khusus untuk dapur di belakang rumah. \nDapur terhubung dengan
+      badan rumah melalui papan \nyang disambung. Selain berfungsi untuk memasak,
+      \ndapur juga digunakan untuk menyimpan peralatan makan."
+    voiceClip: {fileID: 8300000, guid: 245983d08e779c24c8e8bb78952f2df3, type: 3}
+  - text: "Lumbung padi biasanya terletak di belakang atau depan rumah. \nLumbung
+      padi digunakan untuk menyimpan hasil panen."
+    voiceClip: {fileID: 8300000, guid: 245983d08e779c24c8e8bb78952f2df3, type: 3}
+  dialogueText: {fileID: 1451908777}
+  dialogueAudio: {fileID: 497523364}
 --- !u!1 &506700537
 GameObject:
   m_ObjectHideFlags: 0
@@ -31818,7 +31861,7 @@ MonoBehaviour:
   startPosition: {x: 8.96, y: 3.05, z: -4}
   endPosition: {x: 8.96, y: 1.27, z: -4}
   animationDuration: 3
-  timeBeforeTween: 0
+  timeBeforeTween: 0.5
   animationEase: 4
 --- !u!111 &1903418052
 Animation:
