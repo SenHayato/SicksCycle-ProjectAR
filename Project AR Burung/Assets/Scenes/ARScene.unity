@@ -16971,7 +16971,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 
+  - text: 'Dua ekor burung Rangkong tinggal di dekat rumah adat
+
+      suku Rejang.
+      Di sebuah pohon besar dan rindang. Duasuku Rejang. Di sebuah pohon besar dan
+      rindang. Dua
+
+      burung yang bersahabat itu bernama Raka dan Rani.burung
+      yang bersahabat itu bernama Raka dan Rani.'
+    voiceClip: {fileID: 0}
+  - text: "Rumah itu bernama \u201CUmaek Potong Jang\u201D"
     voiceClip: {fileID: 0}
   dialogueText: {fileID: 930716266}
   dialogueAudio: {fileID: 984013756}

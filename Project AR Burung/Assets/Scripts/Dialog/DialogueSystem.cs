@@ -21,17 +21,23 @@ public class DialogueSystem : MonoBehaviour
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] AudioSource dialogueAudio;
 
-    private void Awake()
+    Coroutine dialogueCoroutine;
+
+    private void OnEnable()
     {
+        currentIndex = 0;
         if (!dialogueText.enabled)
         {
             dialogueText.enabled = true;
         }
-    }
 
-    private void Start()
-    {
-        StartCoroutine(PlayDialogue());
+        if (dialogueCoroutine != null)
+        {
+            StopCoroutine(dialogueCoroutine);
+        }
+
+
+        dialogueCoroutine = StartCoroutine(PlayDialogue());
     }
 
     IEnumerator PlayDialogue()
@@ -52,5 +58,16 @@ public class DialogueSystem : MonoBehaviour
         }
 
         dialogueText.enabled = false;
+    }
+
+    private void OnDisable()
+    {
+        if (dialogueCoroutine != null)
+        {
+            StopCoroutine(PlayDialogue());
+            dialogueCoroutine = null;
+        }
+
+        dialogueAudio.Stop();
     }
 }
