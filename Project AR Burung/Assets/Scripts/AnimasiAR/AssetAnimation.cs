@@ -18,6 +18,7 @@ public class AssetAnimation : MonoBehaviour
 
     [Header("DG Set Up")]
     [SerializeField] float animationDuration;
+    [SerializeField] float timeBeforeTween;
     [SerializeField] Ease animationEase;
 
     private enum AnimationType
@@ -38,11 +39,11 @@ public class AssetAnimation : MonoBehaviour
         }
     }
 
-    private void Start()
+    private void OnEnable()
     {
         if (introAnimation != null)
         {
-            Invoke(nameof(PlayAnimation), introAnimation.clip.length + 0.2f);
+            Invoke(nameof(PlayAnimation), introAnimation.clip.length + timeBeforeTween);
         }
         else
         {
@@ -52,6 +53,8 @@ public class AssetAnimation : MonoBehaviour
 
     void PlayAnimation()
     {
+        transform.DOKill();
+
         switch (animationType)
         {
             case AnimationType.Rotate:
@@ -61,5 +64,11 @@ public class AssetAnimation : MonoBehaviour
                 transform.DOLocalMove(endPosition, animationDuration).SetEase(animationEase).SetLoops(-1, LoopType.Yoyo);
                 break;
         }
+    }
+
+    private void OnDisable()
+    {
+        CancelInvoke();
+        transform.DOKill();
     }
 }
