@@ -5209,6 +5209,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 362826286}
+  - component: {fileID: 362826288}
   - component: {fileID: 362826287}
   m_Layer: 0
   m_Name: Voice
@@ -5329,6 +5330,36 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &362826288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362826285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "\u201CLihat rumah ini pernah jadi markas dan tempat tinggal AK. Gani!\u201D"
+    voiceClip: {fileID: 8300000, guid: 5968ddc5d0b4bf047948b5c39c7fe716, type: 3}
+  - text: kata Rani.
+    voiceClip: {fileID: 8300000, guid: 0ebb79001bbde07469a9377574955c6c, type: 3}
+  - text: "\"Siapa dia?\u201D "
+    voiceClip: {fileID: 8300000, guid: ccda9e89bcd132b439a10edc13572d05, type: 3}
+  - text: "\u201CPahlawan Nasional\u201D"
+    voiceClip: {fileID: 8300000, guid: 220b143d4b324844a9783d936e35ccd1, type: 3}
+  - text: kata Rani.
+    voiceClip: {fileID: 8300000, guid: 0ebb79001bbde07469a9377574955c6c, type: 3}
+  - text: "AK. Gani bernama lengkap Adnan Kapau Gani. Ia seorang Gubernur Militer.\nIa
+      bertugas pada masa agresi Belanda ke wilayah Indonesia\r\ntermasuk Bengkulu.
+      Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai,\nwilayah yang
+      tidak jauh dari Desa Napal Putih.\r"
+    voiceClip: {fileID: 8300000, guid: 3b491cd89723ce044a6edcb9215be488, type: 3}
+  dialogueText: {fileID: 694395973}
+  dialogueAudio: {fileID: 362826287}
 --- !u!1 &372421755
 GameObject:
   m_ObjectHideFlags: 0
