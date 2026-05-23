@@ -13959,6 +13959,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 818744430}
+  - component: {fileID: 818744432}
   - component: {fileID: 818744431}
   m_Layer: 0
   m_Name: Voice
@@ -14079,6 +14080,38 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &818744432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818744429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: 'Raka dan Rani membangun sarang mereka di
+
+      sebuah pohon besar. Mereka
+      tampak bahagia
+
+      memiliki sarang baru.'
+    voiceClip: {fileID: 8300000, guid: 3746c2b968340d741a9a31941a1d653d, type: 3}
+  - text: 'Mereka melihat rumah bersejarah milik Pangeran Ali.
+
+      Rumah itu bertingkat
+      dan besar. Rumah itu berada di
+
+      atas tanah yang sangat luas. Namun, ada
+      satu
+
+      rumah berukuran kecil berbentuk rumah panggung di sebelahnya.'
+    voiceClip: {fileID: 8300000, guid: 3746c2b968340d741a9a31941a1d653d, type: 3}
+  dialogueText: {fileID: 776861451}
+  dialogueAudio: {fileID: 818744431}
 --- !u!1 &831904497
 GameObject:
   m_ObjectHideFlags: 0
@@ -28663,7 +28696,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667841680}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
   m_Name: 
@@ -28673,9 +28706,9 @@ MonoBehaviour:
   startRotation: 0
   endRotation: 0
   startPosition: {x: 5.86, y: 2.17, z: -4}
-  endPosition: {x: 5.86, y: 3.74, z: -4}
+  endPosition: {x: 4.34, y: 3.49, z: -4}
   animationDuration: 1.65
-  timeBeforeTween: 0.6
+  timeBeforeTween: 0.3
   animationEase: 4
 --- !u!1 &1673066572
 GameObject:
@@ -29836,6 +29869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1753737308}
+  - component: {fileID: 1753737310}
   - component: {fileID: 1753737309}
   m_Layer: 0
   m_Name: Voice
@@ -29956,6 +29990,40 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1753737310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753737307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: 'Rani dan Raka tiba di Desa Napal Putih dengan tubuh basah.
+
+      Mereka
+      kehujanan selama di perjalanan. Lalu, mata mereka berbinar melihat rumah
+
+      Pangeran
+      Ali yang tampak megah dan luas.
+
+      Di belakang rumah itu tampak hutan dan
+      kebun sawit.'
+    voiceClip: {fileID: 8300000, guid: 4700ec5a95e731d43b7048e7e0e7faa4, type: 3}
+  - text: "\u201CRani, kita bisa tinggal di belakang rumah itu!\u201D"
+    voiceClip: {fileID: 8300000, guid: 168846104e63c8f40be0d4196b6ddfde, type: 3}
+  - text: seru Raka.
+    voiceClip: {fileID: 8300000, guid: 8191da3920372ed45b7851bd2d56544e, type: 3}
+  - text: "\u201CIya, aku setuju.\u201D"
+    voiceClip: {fileID: 8300000, guid: c1eb5a27a1a809e4cad2fbf01848db1b, type: 3}
+  - text: jawab Rani.
+    voiceClip: {fileID: 8300000, guid: be86a489d3178074fa49903d96d8c71e, type: 3}
+  dialogueText: {fileID: 382628655}
+  dialogueAudio: {fileID: 1753737309}
 --- !u!1 &1754903621
 GameObject:
   m_ObjectHideFlags: 0
@@ -33140,7 +33208,7 @@ Transform:
   m_GameObject: {fileID: 1962787547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.238803, y: -10.00051, z: -4}
+  m_LocalPosition: {x: 9.71, y: -11.17, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -33221,7 +33289,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962787547}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
   m_Name: 
@@ -33231,9 +33299,9 @@ MonoBehaviour:
   startRotation: 0
   endRotation: 0
   startPosition: {x: 8.238803, y: -10.000512, z: -4}
-  endPosition: {x: 0, y: 0, z: 0}
+  endPosition: {x: 9.71, y: -11.17, z: -4}
   animationDuration: 1.65
-  timeBeforeTween: 0.6
+  timeBeforeTween: 0.3
   animationEase: 4
 --- !u!1 &1969714807
 GameObject:
