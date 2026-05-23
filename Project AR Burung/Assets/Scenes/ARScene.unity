@@ -4617,11 +4617,20 @@ MonoBehaviour:
   dialogues:
   - text: Kita harus ke Utara.
     voiceClip: {fileID: 8300000, guid: b0382ff0fc9350b4caa3dd181225c31f, type: 3}
+  - text: kata Rani.
+    voiceClip: {fileID: 8300000, guid: 244d08a6ac6adff4282de34137749c9f, type: 3}
   - text: Apakah disana hutan masih asri?
     voiceClip: {fileID: 8300000, guid: c711994847f4b7440a12943ac0f63571, type: 3}
-  - text: Sepertinya begitu, nanti kita cari lagi pohon yang dekat dengan rumah agar
-      bisa bermain.
+  - text: tanya Raka.
+    voiceClip: {fileID: 8300000, guid: 45f48636ce5a9664ea37424743ecd842, type: 3}
+  - text: "Sepertinya begitu, nanti kita cari lagi pohon \nyang dekat dengan rumah
+      agar bisa bermain."
     voiceClip: {fileID: 8300000, guid: 2603f19a01f7f4646ac6fbe747f68041, type: 3}
+  - text: 'Rani dan Raka menatap jauh ke depan. Berharap bisa
+
+      melihat hutan
+      dan rumah untuk mereka bermain bersama.'
+    voiceClip: {fileID: 8300000, guid: 40968e6a5a1bc014e861f3b473791ab4, type: 3}
   dialogueText: {fileID: 1242739272}
   dialogueAudio: {fileID: 335487322}
 --- !u!1 &338042381
