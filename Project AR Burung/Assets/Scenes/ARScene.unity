@@ -26591,6 +26591,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1554915400}
+  - component: {fileID: 1554915402}
   - component: {fileID: 1554915401}
   m_Layer: 0
   m_Name: Voice
@@ -26711,6 +26712,55 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1554915402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554915399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: Mereka terbang ke teras Umaek Potong Jang.
+    voiceClip: {fileID: 8300000, guid: 4726edeb80d737d43b89d52a1e7849b4, type: 3}
+  - text: "\u201CSayang sekali kita tidak bisa tinggal di sini lebih lama,\u201D"
+    voiceClip: {fileID: 8300000, guid: 32e2f6b6807da5c4eb2e3f855725b2e8, type: 3}
+  - text: kata Rani sedih.
+    voiceClip: {fileID: 8300000, guid: 5050dd3370ddd744fa4f095d231f6e8d, type: 3}
+  - text: "\u201CIya, pohon tempat kita bersarang sudah tua,\u201D"
+    voiceClip: {fileID: 8300000, guid: f01771de21da30c4db99fa9e700cd9c8, type: 3}
+  - text: ' kata Raka.'
+    voiceClip: {fileID: 8300000, guid: d66887140a338c04b81ecf18e5fd78fd, type: 3}
+  - text: "\u201CBesok pasti akan ada yang menebangnya.\u201D "
+    voiceClip: {fileID: 8300000, guid: f01771de21da30c4db99fa9e700cd9c8, type: 3}
+  - text: Lanjutnya.
+    voiceClip: {fileID: 8300000, guid: 0d3c1bc50b21dac488a0113ff690a0c7, type: 3}
+  - text: 'Padahal aku suka tempat ini. Apalagi rumah ini, tempat kita
+
+      bermain,"'
+    voiceClip: {fileID: 8300000, guid: 8cbf9cfe7dbe56c4e8513b623b7ce56d, type: 3}
+  - text: kata Rani.
+    voiceClip: {fileID: 8300000, guid: dd6f5bdb4ecaf5c4395fef011e6f852a, type: 3}
+  - text: "\u201CAku juga, rumah ini besar dan kokoh.\nAku juga suka ornamen\r di
+      dinding kayunya\nitu!\u201D"
+    voiceClip: {fileID: 8300000, guid: c3617bc04eb82f9478883617b50ac8da, type: 3}
+  - text: Seru Raka.
+    voiceClip: {fileID: 8300000, guid: d6a617f1dda35e74c8cbe8c0a44ea492, type: 3}
+  - text: 'Umaek Potong Jang menjadi tempat bermain kedua burung itu.menjadi tempat
+      bermain kedua burung itu.
+
+      Mereka sering masuk ke dalam rumah atau terbang
+      di bawahMereka sering masuk ke dalam rumah atau terbang di bawah
+
+      kolong
+      rumah.kolong rumah.'
+    voiceClip: {fileID: 8300000, guid: 57053770a0b083e41a3c470389429205, type: 3}
+  dialogueText: {fileID: 265742771}
+  dialogueAudio: {fileID: 1554915401}
 --- !u!1 &1555685793
 GameObject:
   m_ObjectHideFlags: 0
