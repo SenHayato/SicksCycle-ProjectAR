@@ -826,6 +826,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 39004934}
+  - component: {fileID: 39004936}
   - component: {fileID: 39004935}
   m_Layer: 0
   m_Name: Voice
@@ -946,6 +947,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &39004936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39004933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Di sebelah rumah Pangeran Ali, ada sebuah rumah\npanggung. Rumah itu terbuat
+      dari kayu dan\n]memiliki tangga di depannya. Rumah itu berukuran kecil.\r"
+    voiceClip: {fileID: 8300000, guid: 102749933b5c811498f774147f918aa2, type: 3}
+  - text: 'Dulunya, rumah itu digunakan sebagai tempat tinggal ajudan.
+
+      Ketika
+      masa perjuangan, rumah Pangeran Ali merupakan
+
+      pusat kegiatan politik.
+      Ajudan tinggal di sebelah untuk berjaga-jaga.'
+    voiceClip: {fileID: 8300000, guid: 102749933b5c811498f774147f918aa2, type: 3}
+  dialogueText: {fileID: 2004487385}
+  dialogueAudio: {fileID: 39004935}
 --- !u!1 &39580757
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 80992429}
+  - component: {fileID: 80992431}
   - component: {fileID: 80992430}
   m_Layer: 0
   m_Name: Voice
@@ -1686,6 +1714,29 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &80992431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80992428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Menuju ke lantai dua harus menggunakan tangga\n yang ada di ruang keluarga.
+      Di lantai atas ini hanya ada\n ruangan luas saja"
+    voiceClip: {fileID: 8300000, guid: aef1312b2e25faf45b1b2e16f9e13cd7, type: 3}
+  - text: 'Ruangan atas ini dikelilingi jendela kaca.
+
+      Jendela kaca kombinasi
+      bentuk persegi panjang dan oval.'
+    voiceClip: {fileID: 8300000, guid: aef1312b2e25faf45b1b2e16f9e13cd7, type: 3}
+  dialogueText: {fileID: 288527250}
+  dialogueAudio: {fileID: 80992430}
 --- !u!1001 &85008713
 PrefabInstance:
   m_ObjectHideFlags: 0
