@@ -3175,7 +3175,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 539825221}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -3190,7 +3190,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 539825221}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -10389,7 +10389,7 @@ MonoBehaviour:
   OnTargetFound:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 380583543}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -10404,7 +10404,7 @@ MonoBehaviour:
   OnTargetLost:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 380583543}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -16971,17 +16971,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Dua ekor burung Rangkong tinggal di dekat rumah adat
-
-      suku Rejang.
-      Di sebuah pohon besar dan rindang. Duasuku Rejang. Di sebuah pohon besar dan
-      rindang. Dua
-
-      burung yang bersahabat itu bernama Raka dan Rani.burung
-      yang bersahabat itu bernama Raka dan Rani.'
-    voiceClip: {fileID: 0}
-  - text: "Rumah itu bernama \u201CUmaek Potong Jang\u201D"
-    voiceClip: {fileID: 0}
+  - text: "Dua ekor burung Rangkong tinggal di dekat rumah adat\r\nsuku Rejang. Di
+      sebuah pohon besar dan rindang. Duasuku Rejang. Di sebuah pohon besar dan rindang.
+      Dua\r\nburung yang bersahabat itu bernama Raka dan Rani.burung yang bersahabat
+      itu bernama Raka dan Rani.\n\nRumah itu bernama \u201CUmaek Potong Jang\u201D"
+    voiceClip: {fileID: 8300000, guid: 8378d27fc991f874699dbff22fb60c5c, type: 3}
   dialogueText: {fileID: 930716266}
   dialogueAudio: {fileID: 984013756}
 --- !u!1 &988374033
