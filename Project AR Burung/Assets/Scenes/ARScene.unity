@@ -26893,6 +26893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1555685794}
+  - component: {fileID: 1555685796}
   - component: {fileID: 1555685795}
   m_Layer: 0
   m_Name: Voice
@@ -27013,6 +27014,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1555685796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555685793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Rani dan Raka terbang tinggi. Sesekali mereka terhalang\nangin yang sangat
+      kencang. Langit sudah mendung.\r\nUdara sangat dingin. Sepertinya, hujan sebentar
+      lagi datang\r"
+    voiceClip: {fileID: 8300000, guid: dba844fff4e871145881bfb56da8da1d, type: 3}
+  dialogueText: {fileID: 1125874409}
+  dialogueAudio: {fileID: 1555685795}
 --- !u!1 &1561519910
 GameObject:
   m_ObjectHideFlags: 0
