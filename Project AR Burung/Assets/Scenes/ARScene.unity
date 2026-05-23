@@ -30907,6 +30907,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1803964304}
+  - component: {fileID: 1803964306}
   - component: {fileID: 1803964305}
   m_Layer: 0
   m_Name: Voice
@@ -31027,6 +31028,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1803964306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803964303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: 'Walau tidak dihuni, pada bagian ruang tamu
+
+      masih terdapat kursi
+      peninggalan keluarga
+
+      Pangeran Ali. Kursi itu terbuat dari kayu dan anyaman
+      rotan.'
+    voiceClip: {fileID: 8300000, guid: 4cb41e074ae3b6143b38bb9839af7611, type: 3}
+  - text: "Rumah ini sudah dijadikan cagar budaya.\nSiapa pun boleh berkunjung untuk
+      melihat\ndan mendapatkan informasi cerita bersejarah.\r"
+    voiceClip: {fileID: 8300000, guid: 4cb41e074ae3b6143b38bb9839af7611, type: 3}
+  dialogueText: {fileID: 1942019983}
+  dialogueAudio: {fileID: 1803964305}
 --- !u!1 &1805335019
 GameObject:
   m_ObjectHideFlags: 0
@@ -33964,6 +33991,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1973330537}
+  - component: {fileID: 1973330539}
   - component: {fileID: 1973330538}
   m_Layer: 0
   m_Name: Voice
@@ -34084,6 +34112,35 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1973330539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973330536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: 'Rumah Pangeran Ali terdiri dari dua lantai.
+
+      Di lantai bawah terdapat
+      ruang tamu,
+
+      ruang keluarga, kamar, dan dapur.'
+    voiceClip: {fileID: 8300000, guid: 26af42f3d55141549880437f4457a328, type: 3}
+  - text: 'Di area belakang, terdapat sumur, satu kamar,
+
+      dan satu kamar mandi.
+      Ada pintu belakang yang
+
+      mengarah ke area halaman belakang dan kebun.'
+    voiceClip: {fileID: 8300000, guid: 26af42f3d55141549880437f4457a328, type: 3}
+  dialogueText: {fileID: 996292935}
+  dialogueAudio: {fileID: 1973330538}
 --- !u!1 &1976676665
 GameObject:
   m_ObjectHideFlags: 0
