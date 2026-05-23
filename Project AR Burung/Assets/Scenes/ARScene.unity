@@ -23130,6 +23130,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1339656217}
+  - component: {fileID: 1339656219}
   - component: {fileID: 1339656218}
   m_Layer: 0
   m_Name: Voice
@@ -23250,6 +23251,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1339656219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339656216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f796b634320acf74b8b8d85cec481be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - text: "Pohon di mana sarang mereka berada dirubuhkan.\r\nRani dan Raka bersiap
+      terbang ke arah Utara.\r"
+    voiceClip: {fileID: 8300000, guid: 1d8abf4db4b9c5b4da8df21275d7abab, type: 3}
+  - text: "\u201CAyo kita pergi Rani,\u201D"
+    voiceClip: {fileID: 8300000, guid: 26b43f72c34f22c4081e376c811a4f5c, type: 3}
+  - text: kata Raka.
+    voiceClip: {fileID: 8300000, guid: 0b1b30c4bd35f9241bfb18dcc2f69436, type: 3}
+  - text: "\u201CNanti keburu hujan.\u201D"
+    voiceClip: {fileID: 8300000, guid: 26b43f72c34f22c4081e376c811a4f5c, type: 3}
+  - text: Lanjutnya.
+    voiceClip: {fileID: 8300000, guid: d53d829e807e50442b5597fcf639face, type: 3}
+  - text: Rani menatap Raka, lalu mereka terbang tinggi.
+    voiceClip: {fileID: 8300000, guid: e5258bc40e279834a9439d75c644572d, type: 3}
+  dialogueText: {fileID: 1712056175}
+  dialogueAudio: {fileID: 1339656218}
 --- !u!1 &1341257990
 GameObject:
   m_ObjectHideFlags: 0
