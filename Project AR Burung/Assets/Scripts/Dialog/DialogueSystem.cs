@@ -22,6 +22,7 @@ public class DialogueSystem : MonoBehaviour
     [Header("Dialogue Component")]
     [SerializeField] TextMeshProUGUI dialogueText;
     [SerializeField] Image textBackground;
+    [SerializeField] float backgroundAlphaValue;
     [SerializeField] float textFadeDuration;
     [SerializeField] AudioSource dialogueAudio;
 
@@ -38,7 +39,7 @@ public class DialogueSystem : MonoBehaviour
     void AlphaFadeIn()
     {
         dialogueText.DOFade(1f, textFadeDuration).SetEase(Ease.Linear);
-        textBackground.DOFade(0.2f, textFadeDuration).SetEase(Ease.Linear);
+        textBackground.DOFade(backgroundAlphaValue, textFadeDuration).SetEase(Ease.Linear);
     }
 
     void AlphaFadeOut()
