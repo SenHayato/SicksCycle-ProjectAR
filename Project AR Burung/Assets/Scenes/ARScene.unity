@@ -27339,11 +27339,11 @@ MonoBehaviour:
   - text: kata Rani sedih.
     voiceClip: {fileID: 8300000, guid: 5050dd3370ddd744fa4f095d231f6e8d, type: 3}
   - text: "\u201CIya, pohon tempat kita bersarang sudah tua,\u201D"
-    voiceClip: {fileID: 8300000, guid: f01771de21da30c4db99fa9e700cd9c8, type: 3}
+    voiceClip: {fileID: 8300000, guid: 2d67163cdb4cc744192a439297bcdc00, type: 3}
   - text: ' kata Raka.'
     voiceClip: {fileID: 8300000, guid: d66887140a338c04b81ecf18e5fd78fd, type: 3}
   - text: "\u201CBesok pasti akan ada yang menebangnya.\u201D "
-    voiceClip: {fileID: 8300000, guid: f01771de21da30c4db99fa9e700cd9c8, type: 3}
+    voiceClip: {fileID: 8300000, guid: e23a3329c14d6f24b94e97b9aa73dead, type: 3}
   - text: Lanjutnya.
     voiceClip: {fileID: 8300000, guid: 0d3c1bc50b21dac488a0113ff690a0c7, type: 3}
   - text: 'Padahal aku suka tempat ini. Apalagi rumah ini, tempat kita
@@ -27359,14 +27359,10 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: c3617bc04eb82f9478883617b50ac8da, type: 3}
   - text: Seru Raka.
     voiceClip: {fileID: 8300000, guid: d6a617f1dda35e74c8cbe8c0a44ea492, type: 3}
-  - text: 'Umaek Potong Jang menjadi tempat bermain kedua burung itu.menjadi tempat
-      bermain kedua burung itu.
+  - text: 'Umaek Potong Jang menjadi tempat bermain kedua burung itu.
 
-      Mereka sering masuk ke dalam rumah atau terbang
-      di bawahMereka sering masuk ke dalam rumah atau terbang di bawah
-
-      kolong
-      rumah.kolong rumah.'
+      Mereka
+      sering masuk ke dalam rumah atau terbang di bawah kolong rumah.'
     voiceClip: {fileID: 8300000, guid: 57053770a0b083e41a3c470389429205, type: 3}
   dialogueText: {fileID: 265742771}
   dialogueAudio: {fileID: 1554915401}
