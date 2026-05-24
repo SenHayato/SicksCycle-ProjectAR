@@ -1,8 +1,10 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 [Serializable]
 public class DialogueLine //Sesuaikan dialog, banyak dialog, dan voice playback
@@ -19,9 +21,31 @@ public class DialogueSystem : MonoBehaviour
 
     [Header("Dialogue Component")]
     [SerializeField] TextMeshProUGUI dialogueText;
+    [SerializeField] Image textBackground;
+    [SerializeField] float textFadeDuration;
     [SerializeField] AudioSource dialogueAudio;
 
     Coroutine dialogueCoroutine;
+
+    float maxAlphaText;
+    float maxAlphaBackground;
+    private void Awake()
+    {
+        maxAlphaText = dialogueText.color.a;
+        maxAlphaBackground = textBackground.color.a;
+    }
+
+    void AlphaFadeIn()
+    {
+        dialogueText.DOFade(1f, textFadeDuration).SetEase(Ease.Linear);
+        textBackground.DOFade(0.2f, textFadeDuration).SetEase(Ease.Linear);
+    }
+
+    void AlphaFadeOut()
+    {
+        dialogueText.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
+        textBackground.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
+    }
 
     private void OnEnable()
     {
@@ -36,6 +60,13 @@ public class DialogueSystem : MonoBehaviour
             StopCoroutine(dialogueCoroutine);
         }
 
+        Color textTransparent = dialogueText.color;
+        textTransparent.a = 0f;
+        dialogueText.color = textTransparent;
+
+        Color backTransparent = textBackground.color;
+        backTransparent.a = 0f;
+        textBackground.color = backTransparent;
 
         dialogueCoroutine = StartCoroutine(PlayDialogue());
     }
@@ -51,13 +82,22 @@ public class DialogueSystem : MonoBehaviour
             dialogueAudio.clip = line.voiceClip;
             dialogueAudio.Play();
 
+            AlphaFadeIn();
+
+            float waitTime = Mathf.Max(0, line.voiceClip.length - textFadeDuration);
+
             // jeda ampek voice playback selesai
-            yield return new WaitForSeconds(line.voiceClip.length);
+            yield return new WaitForSeconds(waitTime);
+
+            AlphaFadeOut();
+
+            yield return new WaitForSeconds(textFadeDuration);
 
             currentIndex++;
         }
 
-        dialogueText.enabled = false;
+        //dialogueText.enabled = false;
+        AlphaFadeOut();
     }
 
     private void OnDisable()

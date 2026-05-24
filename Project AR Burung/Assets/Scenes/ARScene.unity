@@ -816,6 +816,8 @@ MonoBehaviour:
       jendela kayu dan kaca.'
     voiceClip: {fileID: 8300000, guid: f9938f7a6fa120d45baeaa10d1d72ea4, type: 3}
   dialogueText: {fileID: 679234381}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 31415841}
 --- !u!1 &39004933
 GameObject:
@@ -972,6 +974,8 @@ MonoBehaviour:
       Ajudan tinggal di sebelah untuk berjaga-jaga.'
     voiceClip: {fileID: 8300000, guid: 271606519f08d44489e57b0f008d0337, type: 3}
   dialogueText: {fileID: 2004487385}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 39004935}
 --- !u!1 &39580757
 GameObject:
@@ -1736,6 +1740,8 @@ MonoBehaviour:
       bentuk persegi panjang dan oval.'
     voiceClip: {fileID: 8300000, guid: 38ecb16821f92e14b8dc15c801d57fe9, type: 3}
   dialogueText: {fileID: 288527250}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 80992430}
 --- !u!1001 &85008713
 PrefabInstance:
@@ -3851,8 +3857,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5207,6 +5213,8 @@ MonoBehaviour:
       dan rumah untuk mereka bermain bersama.'
     voiceClip: {fileID: 8300000, guid: 40968e6a5a1bc014e861f3b473791ab4, type: 3}
   dialogueText: {fileID: 1242739272}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 335487322}
 --- !u!1 &338042381
 GameObject:
@@ -5879,6 +5887,8 @@ MonoBehaviour:
       yang tidak jauh dari Desa Napal Putih'
     voiceClip: {fileID: 8300000, guid: 3b491cd89723ce044a6edcb9215be488, type: 3}
   dialogueText: {fileID: 694395973}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 362826287}
 --- !u!1 &372421755
 GameObject:
@@ -6340,6 +6350,8 @@ MonoBehaviour:
       bagian atas rumah. Tepatnya di loteng atau geligei'
     voiceClip: {fileID: 8300000, guid: a0f164249167525479bb1f6624fc628b, type: 3}
   dialogueText: {fileID: 1123209093}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 382473818}
 --- !u!1 &382628653
 GameObject:
@@ -6426,8 +6438,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7013,8 +7025,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7969,7 +7981,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0.3, y: 0.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434465831
 MonoBehaviour:
@@ -9337,6 +9349,8 @@ MonoBehaviour:
       padi digunakan untuk menyimpan hasil panen."
     voiceClip: {fileID: 8300000, guid: 86cfc20cacdcf334fb53f9145672a141, type: 3}
   dialogueText: {fileID: 1451908777}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 497523364}
 --- !u!1 &506700537
 GameObject:
@@ -10040,6 +10054,8 @@ MonoBehaviour:
       Lingkungan tenang dan langit yang berseri.'
     voiceClip: {fileID: 8300000, guid: 51da0d1f51ece5d4082ec7cb62a327ed, type: 3}
   dialogueText: {fileID: 680913066}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 530282545}
 --- !u!1 &532730065
 GameObject:
@@ -11545,6 +11561,8 @@ MonoBehaviour:
   - text: Test Cover
     voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
   dialogueText: {fileID: 1686339564}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 617527157}
 --- !u!1 &623566460
 GameObject:
@@ -12901,8 +12919,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13036,8 +13054,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13299,8 +13317,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13840,8 +13858,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14524,8 +14542,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15566,6 +15584,8 @@ MonoBehaviour:
       rumah berukuran kecil berbentuk rumah panggung di sebelahnya.'
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
   dialogueText: {fileID: 776861451}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 818744431}
 --- !u!1 &831904497
 GameObject:
@@ -17673,8 +17693,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchoredPosition: {x: 0.15, y: -0.055}
+  m_SizeDelta: {x: 0.3, y: 0.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930716266
 MonoBehaviour:
@@ -17724,8 +17744,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18513,10 +18533,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - text: "Dua ekor burung Rangkong tinggal di dekat rumah adat suku Rejang. \nDi
-      sebuah pohon besar dan rindang. Dua burung yang bersahabat itu\nbernama Raka
-      dan Rani.\r\n\r\nRumah itu bernama \u201CUmaek Potong Jang\u201D\r"
-    voiceClip: {fileID: 8300000, guid: 8378d27fc991f874699dbff22fb60c5c, type: 3}
+      sebuah pohon besar dan rindang. \nDua burung yang bersahabat itu bernama Raka
+      dan Rani.\r"
+    voiceClip: {fileID: 8300000, guid: d2802dfa6f7c6634cb8257e2035ee5a9, type: 3}
+  - text: "\r\rRumah itu bernama \u201CUmaek Potong Jang\u201D\r"
+    voiceClip: {fileID: 8300000, guid: 1c073dc8d97d8de4c84e878c0bf59385, type: 3}
   dialogueText: {fileID: 930716266}
+  textBackground: {fileID: 434465833}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 984013756}
 --- !u!1 &988374033
 GameObject:
@@ -18754,8 +18778,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -19670,6 +19694,8 @@ MonoBehaviour:
       gambar kepak sayap burung.\r "
     voiceClip: {fileID: 8300000, guid: 95c985685f1d63347b4c482ca9df9bfd, type: 3}
   dialogueText: {fileID: 394278590}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1057789897}
 --- !u!1 &1058417174
 GameObject:
@@ -20849,8 +20875,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -20984,8 +21010,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -23174,8 +23200,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -23487,6 +23513,8 @@ MonoBehaviour:
       ada ruang terbuka.\r\nDi sana, anggota keluarga berkumpul atau tidur.\r"
     voiceClip: {fileID: 8300000, guid: 3b42bd77afe2b63469a6c38e55be4cd3, type: 3}
   dialogueText: {fileID: 714033485}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1261121614}
 --- !u!1 &1270049660
 GameObject:
@@ -25155,6 +25183,8 @@ MonoBehaviour:
   - text: Rani menatap Raka, lalu mereka terbang tinggi.
     voiceClip: {fileID: 8300000, guid: e5258bc40e279834a9439d75c644572d, type: 3}
   dialogueText: {fileID: 1712056175}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1339656218}
 --- !u!1 &1341257990
 GameObject:
@@ -27453,8 +27483,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -28979,6 +29009,8 @@ MonoBehaviour:
       sering masuk ke dalam rumah atau terbang di bawah kolong rumah.'
     voiceClip: {fileID: 8300000, guid: 57053770a0b083e41a3c470389429205, type: 3}
   dialogueText: {fileID: 265742771}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1554915401}
 --- !u!1 &1555685793
 GameObject:
@@ -29128,6 +29160,8 @@ MonoBehaviour:
       lagi datang\r"
     voiceClip: {fileID: 8300000, guid: dba844fff4e871145881bfb56da8da1d, type: 3}
   dialogueText: {fileID: 1125874409}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1555685795}
 --- !u!1 &1561519910
 GameObject:
@@ -31969,8 +32003,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -32589,6 +32623,8 @@ MonoBehaviour:
   - text: jawab Rani.
     voiceClip: {fileID: 8300000, guid: be86a489d3178074fa49903d96d8c71e, type: 3}
   dialogueText: {fileID: 382628655}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1753737309}
 --- !u!1 &1754903621
 GameObject:
@@ -33184,6 +33220,8 @@ MonoBehaviour:
       melihat\ndan mendapatkan informasi cerita bersejarah.\r"
     voiceClip: {fileID: 8300000, guid: 9483ac11f71a19246812e1400da9e803, type: 3}
   dialogueText: {fileID: 1942019983}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1803964305}
 --- !u!1 &1805335019
 GameObject:
@@ -35584,8 +35622,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.14
-  m_fontSizeBase: 0.14
+  m_fontSize: 0.067
+  m_fontSizeBase: 0.067
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -36270,6 +36308,8 @@ MonoBehaviour:
       mengarah ke area halaman belakang dan kebun.'
     voiceClip: {fileID: 8300000, guid: 368afbbbac5d39b47b2aca2acac6918a, type: 3}
   dialogueText: {fileID: 996292935}
+  textBackground: {fileID: 0}
+  textFadeDuration: 0
   dialogueAudio: {fileID: 1973330538}
 --- !u!1 &1976676665
 GameObject:
