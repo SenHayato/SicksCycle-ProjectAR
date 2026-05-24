@@ -961,8 +961,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - text: "Di sebelah rumah Pangeran Ali, ada sebuah rumah\npanggung. Rumah itu terbuat
-      dari kayu dan\n]memiliki tangga di depannya. Rumah itu berukuran kecil.\r"
-    voiceClip: {fileID: 8300000, guid: 102749933b5c811498f774147f918aa2, type: 3}
+      dari kayu dan\nmemiliki tangga di depannya. Rumah itu berukuran kecil.\r"
+    voiceClip: {fileID: 8300000, guid: b71d68c13ab23dc43b475ae36e7eb62c, type: 3}
   - text: 'Dulunya, rumah itu digunakan sebagai tempat tinggal ajudan.
 
       Ketika
@@ -970,7 +970,7 @@ MonoBehaviour:
 
       pusat kegiatan politik.
       Ajudan tinggal di sebelah untuk berjaga-jaga.'
-    voiceClip: {fileID: 8300000, guid: 102749933b5c811498f774147f918aa2, type: 3}
+    voiceClip: {fileID: 8300000, guid: 271606519f08d44489e57b0f008d0337, type: 3}
   dialogueText: {fileID: 2004487385}
   dialogueAudio: {fileID: 39004935}
 --- !u!1 &39580757
@@ -1729,12 +1729,12 @@ MonoBehaviour:
   dialogues:
   - text: "Menuju ke lantai dua harus menggunakan tangga\n yang ada di ruang keluarga.
       Di lantai atas ini hanya ada\n ruangan luas saja"
-    voiceClip: {fileID: 8300000, guid: aef1312b2e25faf45b1b2e16f9e13cd7, type: 3}
+    voiceClip: {fileID: 8300000, guid: d0f32130d4f11a140aa0a188fa7073b6, type: 3}
   - text: 'Ruangan atas ini dikelilingi jendela kaca.
 
       Jendela kaca kombinasi
       bentuk persegi panjang dan oval.'
-    voiceClip: {fileID: 8300000, guid: aef1312b2e25faf45b1b2e16f9e13cd7, type: 3}
+    voiceClip: {fileID: 8300000, guid: 38ecb16821f92e14b8dc15c801d57fe9, type: 3}
   dialogueText: {fileID: 288527250}
   dialogueAudio: {fileID: 80992430}
 --- !u!1001 &85008713
