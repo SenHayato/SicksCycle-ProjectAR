@@ -8722,10 +8722,10 @@ MonoBehaviour:
   - text: "Ada bangunan khusus untuk dapur di belakang rumah. \nDapur terhubung dengan
       badan rumah melalui papan \nyang disambung. Selain berfungsi untuk memasak,
       \ndapur juga digunakan untuk menyimpan peralatan makan."
-    voiceClip: {fileID: 8300000, guid: 245983d08e779c24c8e8bb78952f2df3, type: 3}
+    voiceClip: {fileID: 8300000, guid: c28afad09ad8dea41ba2a00a44269cc1, type: 3}
   - text: "Lumbung padi biasanya terletak di belakang atau depan rumah. \nLumbung
       padi digunakan untuk menyimpan hasil panen."
-    voiceClip: {fileID: 8300000, guid: 245983d08e779c24c8e8bb78952f2df3, type: 3}
+    voiceClip: {fileID: 8300000, guid: 86cfc20cacdcf334fb53f9145672a141, type: 3}
   dialogueText: {fileID: 1451908777}
   dialogueAudio: {fileID: 497523364}
 --- !u!1 &506700537
