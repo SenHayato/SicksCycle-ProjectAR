@@ -25127,7 +25127,7 @@ GameObject:
   - component: {fileID: 1341257991}
   - component: {fileID: 1341257992}
   m_Layer: 0
-  m_Name: Page28-29 AR
+  m_Name: Page 28-29 AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25558,7 +25558,7 @@ GameObject:
   - component: {fileID: 1363659927}
   - component: {fileID: 1363659928}
   m_Layer: 0
-  m_Name: Page22-23AR
+  m_Name: Page 22-23 AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27741,7 +27741,7 @@ GameObject:
   - component: {fileID: 1493396769}
   - component: {fileID: 1493396770}
   m_Layer: 0
-  m_Name: Page8-9AR
+  m_Name: Page 8-9 AR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
