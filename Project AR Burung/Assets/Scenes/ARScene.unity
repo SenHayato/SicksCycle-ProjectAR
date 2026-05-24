@@ -137,7 +137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7727165
 Transform:
   m_ObjectHideFlags: 0
@@ -816,8 +816,8 @@ MonoBehaviour:
       jendela kayu dan kaca.'
     voiceClip: {fileID: 8300000, guid: f9938f7a6fa120d45baeaa10d1d72ea4, type: 3}
   dialogueText: {fileID: 679234381}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 279196811}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 31415841}
 --- !u!1 &39004933
 GameObject:
@@ -974,8 +974,8 @@ MonoBehaviour:
       Ajudan tinggal di sebelah untuk berjaga-jaga.'
     voiceClip: {fileID: 8300000, guid: 271606519f08d44489e57b0f008d0337, type: 3}
   dialogueText: {fileID: 2004487385}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 700897212}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 39004935}
 --- !u!1 &39580757
 GameObject:
@@ -1099,7 +1099,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50069675
 MonoBehaviour:
@@ -1217,7 +1217,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50640988
 MonoBehaviour:
@@ -1740,8 +1740,8 @@ MonoBehaviour:
       bentuk persegi panjang dan oval.'
     voiceClip: {fileID: 8300000, guid: 38ecb16821f92e14b8dc15c801d57fe9, type: 3}
   dialogueText: {fileID: 288527250}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 1519107856}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 80992430}
 --- !u!1001 &85008713
 PrefabInstance:
@@ -3804,10 +3804,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 486401250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265742771
 MonoBehaviour:
@@ -3945,7 +3945,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279196809
 MonoBehaviour:
@@ -4289,10 +4289,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1519107853}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288527250
 MonoBehaviour:
@@ -4574,7 +4574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &302748625
 Transform:
   m_ObjectHideFlags: 0
@@ -5213,8 +5213,8 @@ MonoBehaviour:
       dan rumah untuk mereka bermain bersama.'
     voiceClip: {fileID: 8300000, guid: 40968e6a5a1bc014e861f3b473791ab4, type: 3}
   dialogueText: {fileID: 1242739272}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 2070459349}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 335487322}
 --- !u!1 &338042381
 GameObject:
@@ -5231,7 +5231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &338042382
 Transform:
   m_ObjectHideFlags: 0
@@ -5535,7 +5535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &358423997
 Transform:
   m_ObjectHideFlags: 0
@@ -5887,8 +5887,8 @@ MonoBehaviour:
       yang tidak jauh dari Desa Napal Putih'
     voiceClip: {fileID: 8300000, guid: 3b491cd89723ce044a6edcb9215be488, type: 3}
   dialogueText: {fileID: 694395973}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 50069677}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 362826287}
 --- !u!1 &372421755
 GameObject:
@@ -6095,7 +6095,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &380583544
 Transform:
   m_ObjectHideFlags: 0
@@ -6350,8 +6350,8 @@ MonoBehaviour:
       bagian atas rumah. Tepatnya di loteng atau geligei'
     voiceClip: {fileID: 8300000, guid: a0f164249167525479bb1f6624fc628b, type: 3}
   dialogueText: {fileID: 1123209093}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 476342839}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 382473818}
 --- !u!1 &382628653
 GameObject:
@@ -6385,10 +6385,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 478804331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382628655
 MonoBehaviour:
@@ -6611,7 +6611,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &386178726
 MonoBehaviour:
@@ -6972,10 +6972,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 386178725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394278590
 MonoBehaviour:
@@ -7173,7 +7173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &397719943
 Transform:
   m_ObjectHideFlags: 0
@@ -7981,7 +7981,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434465831
 MonoBehaviour:
@@ -8524,7 +8524,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476342837
 MonoBehaviour:
@@ -8642,7 +8642,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478804332
 MonoBehaviour:
@@ -9035,7 +9035,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &486401251
 MonoBehaviour:
@@ -9349,8 +9349,8 @@ MonoBehaviour:
       padi digunakan untuk menyimpan hasil panen."
     voiceClip: {fileID: 8300000, guid: 86cfc20cacdcf334fb53f9145672a141, type: 3}
   dialogueText: {fileID: 1451908777}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 1108493675}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 497523364}
 --- !u!1 &506700537
 GameObject:
@@ -10054,8 +10054,8 @@ MonoBehaviour:
       Lingkungan tenang dan langit yang berseri.'
     voiceClip: {fileID: 8300000, guid: 51da0d1f51ece5d4082ec7cb62a327ed, type: 3}
   dialogueText: {fileID: 680913066}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 783098364}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 530282545}
 --- !u!1 &532730065
 GameObject:
@@ -10315,7 +10315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &539825222
 Transform:
   m_ObjectHideFlags: 0
@@ -11011,7 +11011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &577469826
 Transform:
   m_ObjectHideFlags: 0
@@ -11561,8 +11561,8 @@ MonoBehaviour:
   - text: Test Cover
     voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
   dialogueText: {fileID: 1686339564}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 661496188}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 617527157}
 --- !u!1 &623566460
 GameObject:
@@ -12382,7 +12382,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &661496186
 MonoBehaviour:
@@ -12477,7 +12477,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &665608439
 Transform:
   m_ObjectHideFlags: 0
@@ -12866,10 +12866,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 279196808}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679234381
 MonoBehaviour:
@@ -13001,10 +13001,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 783098361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680913066
 MonoBehaviour:
@@ -13264,10 +13264,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 50069674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &694395973
 MonoBehaviour:
@@ -13542,7 +13542,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700897210
 MonoBehaviour:
@@ -13805,10 +13805,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1041431234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714033485
 MonoBehaviour:
@@ -14489,10 +14489,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2111231389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &776861451
 MonoBehaviour:
@@ -14630,7 +14630,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783098362
 MonoBehaviour:
@@ -15259,7 +15259,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &813367800
 MonoBehaviour:
@@ -15584,8 +15584,8 @@ MonoBehaviour:
       rumah berukuran kecil berbentuk rumah panggung di sebelahnya.'
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
   dialogueText: {fileID: 776861451}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 2111231392}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 818744431}
 --- !u!1 &831904497
 GameObject:
@@ -16759,7 +16759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &884168284
 Transform:
   m_ObjectHideFlags: 0
@@ -17691,10 +17691,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 434465830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.15, y: -0.055}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930716266
 MonoBehaviour:
@@ -18557,7 +18557,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &988374034
 Transform:
   m_ObjectHideFlags: 0
@@ -18725,10 +18725,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 50640987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996292935
 MonoBehaviour:
@@ -19381,7 +19381,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041431235
 MonoBehaviour:
@@ -19694,8 +19694,8 @@ MonoBehaviour:
       gambar kepak sayap burung.\r "
     voiceClip: {fileID: 8300000, guid: 95c985685f1d63347b4c482ca9df9bfd, type: 3}
   dialogueText: {fileID: 394278590}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 386178728}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1057789897}
 --- !u!1 &1058417174
 GameObject:
@@ -20582,7 +20582,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1108493673
 MonoBehaviour:
@@ -20822,10 +20822,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 476342836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1123209093
 MonoBehaviour:
@@ -20957,10 +20957,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 813367799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125874409
 MonoBehaviour:
@@ -21929,7 +21929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1176384711
 Transform:
   m_ObjectHideFlags: 0
@@ -22070,7 +22070,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179467694
 MonoBehaviour:
@@ -23096,7 +23096,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1236927952
 Transform:
   m_ObjectHideFlags: 0
@@ -23147,10 +23147,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2070459346}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.30999994, y: -0.115}
-  m_SizeDelta: {x: 0.6199999, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1242739272
 MonoBehaviour:
@@ -23513,8 +23513,8 @@ MonoBehaviour:
       ada ruang terbuka.\r\nDi sana, anggota keluarga berkumpul atau tidur.\r"
     voiceClip: {fileID: 8300000, guid: 3b42bd77afe2b63469a6c38e55be4cd3, type: 3}
   dialogueText: {fileID: 714033485}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 1041431237}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1261121614}
 --- !u!1 &1270049660
 GameObject:
@@ -25183,8 +25183,8 @@ MonoBehaviour:
   - text: Rani menatap Raka, lalu mereka terbang tinggi.
     voiceClip: {fileID: 8300000, guid: e5258bc40e279834a9439d75c644572d, type: 3}
   dialogueText: {fileID: 1712056175}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 1611108392}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1339656218}
 --- !u!1 &1341257990
 GameObject:
@@ -27430,10 +27430,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1108493672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451908777
 MonoBehaviour:
@@ -28308,7 +28308,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519107854
 MonoBehaviour:
@@ -29009,8 +29009,8 @@ MonoBehaviour:
       sering masuk ke dalam rumah atau terbang di bawah kolong rumah.'
     voiceClip: {fileID: 8300000, guid: 57053770a0b083e41a3c470389429205, type: 3}
   dialogueText: {fileID: 265742771}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 486401253}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1554915401}
 --- !u!1 &1555685793
 GameObject:
@@ -29160,8 +29160,8 @@ MonoBehaviour:
       lagi datang\r"
     voiceClip: {fileID: 8300000, guid: dba844fff4e871145881bfb56da8da1d, type: 3}
   dialogueText: {fileID: 1125874409}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 813367802}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1555685795}
 --- !u!1 &1561519910
 GameObject:
@@ -29262,7 +29262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1563071702
 Transform:
   m_ObjectHideFlags: 0
@@ -29296,7 +29296,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1565512778
 Transform:
   m_ObjectHideFlags: 0
@@ -30006,7 +30006,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611108390
 MonoBehaviour:
@@ -31476,10 +31476,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 661496185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1686339564
 MonoBehaviour:
@@ -31950,10 +31950,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1611108389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712056175
 MonoBehaviour:
@@ -32623,8 +32623,8 @@ MonoBehaviour:
   - text: jawab Rani.
     voiceClip: {fileID: 8300000, guid: be86a489d3178074fa49903d96d8c71e, type: 3}
   dialogueText: {fileID: 382628655}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 478804334}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1753737309}
 --- !u!1 &1754903621
 GameObject:
@@ -32675,7 +32675,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1768915531
 Transform:
   m_ObjectHideFlags: 0
@@ -33220,8 +33220,8 @@ MonoBehaviour:
       melihat\ndan mendapatkan informasi cerita bersejarah.\r"
     voiceClip: {fileID: 8300000, guid: 9483ac11f71a19246812e1400da9e803, type: 3}
   dialogueText: {fileID: 1942019983}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 1179467696}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1803964305}
 --- !u!1 &1805335019
 GameObject:
@@ -34406,7 +34406,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1896768398
 Transform:
   m_ObjectHideFlags: 0
@@ -34809,7 +34809,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1916587417
 Transform:
   m_ObjectHideFlags: 0
@@ -35569,10 +35569,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1179467693}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1942019983
 MonoBehaviour:
@@ -36308,8 +36308,8 @@ MonoBehaviour:
       mengarah ke area halaman belakang dan kebun.'
     voiceClip: {fileID: 8300000, guid: 368afbbbac5d39b47b2aca2acac6918a, type: 3}
   dialogueText: {fileID: 996292935}
-  textBackground: {fileID: 0}
-  textFadeDuration: 0
+  textBackground: {fileID: 50640990}
+  textFadeDuration: 0.5
   dialogueAudio: {fileID: 1973330538}
 --- !u!1 &1976676665
 GameObject:
@@ -36786,10 +36786,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 700897209}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.31, y: -0.115}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004487385
 MonoBehaviour:
@@ -37749,7 +37749,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.424}
-  m_SizeDelta: {x: -3.973, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070459347
 MonoBehaviour:
@@ -38053,7 +38053,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.62, y: 0.23}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111231390
 MonoBehaviour:
@@ -38650,7 +38650,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2146882379
 Transform:
   m_ObjectHideFlags: 0
