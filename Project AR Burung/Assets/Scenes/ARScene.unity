@@ -34232,14 +34232,14 @@ MonoBehaviour:
       ruang tamu,
 
       ruang keluarga, kamar, dan dapur.'
-    voiceClip: {fileID: 8300000, guid: 26af42f3d55141549880437f4457a328, type: 3}
+    voiceClip: {fileID: 8300000, guid: 4287b7c36efd17342b2403ba5467a74f, type: 3}
   - text: 'Di area belakang, terdapat sumur, satu kamar,
 
       dan satu kamar mandi.
       Ada pintu belakang yang
 
       mengarah ke area halaman belakang dan kebun.'
-    voiceClip: {fileID: 8300000, guid: 26af42f3d55141549880437f4457a328, type: 3}
+    voiceClip: {fileID: 8300000, guid: 368afbbbac5d39b47b2aca2acac6918a, type: 3}
   dialogueText: {fileID: 996292935}
   dialogueAudio: {fileID: 1973330538}
 --- !u!1 &1976676665
