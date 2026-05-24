@@ -31149,10 +31149,10 @@ MonoBehaviour:
 
       Pangeran Ali. Kursi itu terbuat dari kayu dan anyaman
       rotan.'
-    voiceClip: {fileID: 8300000, guid: 4cb41e074ae3b6143b38bb9839af7611, type: 3}
+    voiceClip: {fileID: 8300000, guid: 8db01c937efd1a945bc53a3da3172466, type: 3}
   - text: "Rumah ini sudah dijadikan cagar budaya.\nSiapa pun boleh berkunjung untuk
       melihat\ndan mendapatkan informasi cerita bersejarah.\r"
-    voiceClip: {fileID: 8300000, guid: 4cb41e074ae3b6143b38bb9839af7611, type: 3}
+    voiceClip: {fileID: 8300000, guid: 9483ac11f71a19246812e1400da9e803, type: 3}
   dialogueText: {fileID: 1942019983}
   dialogueAudio: {fileID: 1803964305}
 --- !u!1 &1805335019
