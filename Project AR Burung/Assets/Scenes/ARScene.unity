@@ -4401,6 +4401,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 292477207}
+  - component: {fileID: 292477209}
   - component: {fileID: 292477208}
   m_Layer: 0
   m_Name: daun 2
@@ -4476,6 +4477,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &292477209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292477206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 0
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: 0, y: 0, z: 0}
+  endPosition: {x: 0, y: 0, z: 0}
+  animationDuration: 0
+  timeBeforeTween: 0
+  animationEase: 0
 --- !u!1 &300018767
 GameObject:
   m_ObjectHideFlags: 0
@@ -4686,6 +4708,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 310109946}
+  - component: {fileID: 310109948}
   - component: {fileID: 310109947}
   m_Layer: 0
   m_Name: daun 1
@@ -4761,6 +4784,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &310109948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310109945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 0
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: 0, y: 0, z: 0}
+  endPosition: {x: 0, y: 0, z: 0}
+  animationDuration: 0
+  timeBeforeTween: 0
+  animationEase: 0
 --- !u!1 &312176164
 GameObject:
   m_ObjectHideFlags: 0
@@ -5563,6 +5607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 360026377}
+  - component: {fileID: 360026379}
   - component: {fileID: 360026378}
   m_Layer: 0
   m_Name: burung 2
@@ -5638,6 +5683,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &360026379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360026376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 0
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: 0, y: 0, z: 0}
+  endPosition: {x: 0, y: 0, z: 0}
+  animationDuration: 0
+  timeBeforeTween: 0
+  animationEase: 0
 --- !u!1001 &362768600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8731,6 +8797,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 479378534}
+  - component: {fileID: 479378536}
   - component: {fileID: 479378535}
   m_Layer: 0
   m_Name: daun 3
@@ -8806,6 +8873,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &479378536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479378533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 0
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: 0, y: 0, z: 0}
+  endPosition: {x: 0, y: 0, z: 0}
+  animationDuration: 0
+  timeBeforeTween: 0
+  animationEase: 0
 --- !u!1 &479926604
 GameObject:
   m_ObjectHideFlags: 0
@@ -11881,6 +11969,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 631546079}
+  - component: {fileID: 631546081}
   - component: {fileID: 631546080}
   m_Layer: 0
   m_Name: rumah awan
@@ -11956,6 +12045,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &631546081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631546078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 0
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: 0, y: 0, z: 0}
+  endPosition: {x: 0, y: 0, z: 0}
+  animationDuration: 0
+  timeBeforeTween: 0
+  animationEase: 0
 --- !u!1 &633837605
 GameObject:
   m_ObjectHideFlags: 0
@@ -14169,6 +14279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727653250}
   - component: {fileID: 727653251}
+  - component: {fileID: 727653252}
   m_Layer: 0
   m_Name: judul
   m_TagString: Untagged
@@ -14243,6 +14354,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!111 &727653252
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727653249}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &730261744
 GameObject:
   m_ObjectHideFlags: 0
@@ -21924,7 +22050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1176384711}
   m_Layer: 0
-  m_Name: Cover
+  m_Name: Cover (Revisi)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30569,6 +30695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1652017797}
+  - component: {fileID: 1652017799}
   - component: {fileID: 1652017798}
   m_Layer: 0
   m_Name: burung 1
@@ -30644,6 +30771,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1652017799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652017796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationType: 0
+  introAnimation: {fileID: 0}
+  startRotation: 0
+  endRotation: 0
+  startPosition: {x: 0, y: 0, z: 0}
+  endPosition: {x: 0, y: 0, z: 0}
+  animationDuration: 0
+  timeBeforeTween: 0
+  animationEase: 0
 --- !u!1 &1666148500
 GameObject:
   m_ObjectHideFlags: 0
