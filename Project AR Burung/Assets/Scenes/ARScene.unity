@@ -14466,7 +14466,7 @@ MonoBehaviour:
       tampak bahagia
 
       memiliki sarang baru.'
-    voiceClip: {fileID: 8300000, guid: 3746c2b968340d741a9a31941a1d653d, type: 3}
+    voiceClip: {fileID: 8300000, guid: 80e1f6e600d7a0649ac29b0753d478dc, type: 3}
   - text: 'Mereka melihat rumah bersejarah milik Pangeran Ali.
 
       Rumah itu bertingkat
@@ -14476,7 +14476,7 @@ MonoBehaviour:
       satu
 
       rumah berukuran kecil berbentuk rumah panggung di sebelahnya.'
-    voiceClip: {fileID: 8300000, guid: 3746c2b968340d741a9a31941a1d653d, type: 3}
+    voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
   dialogueText: {fileID: 776861451}
   dialogueAudio: {fileID: 818744431}
 --- !u!1 &831904497
