@@ -23749,14 +23749,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - text: "Pohon di mana sarang mereka berada dirubuhkan.\r\nRani dan Raka bersiap
-      terbang ke arah Utara.\r"
+      terbang ke Utara.\r"
     voiceClip: {fileID: 8300000, guid: 1d8abf4db4b9c5b4da8df21275d7abab, type: 3}
   - text: "\u201CAyo kita pergi Rani,\u201D"
-    voiceClip: {fileID: 8300000, guid: 26b43f72c34f22c4081e376c811a4f5c, type: 3}
+    voiceClip: {fileID: 8300000, guid: df8560cd7c893d048a60d54d48abca52, type: 3}
   - text: kata Raka.
     voiceClip: {fileID: 8300000, guid: 0b1b30c4bd35f9241bfb18dcc2f69436, type: 3}
   - text: "\u201CNanti keburu hujan.\u201D"
-    voiceClip: {fileID: 8300000, guid: 26b43f72c34f22c4081e376c811a4f5c, type: 3}
+    voiceClip: {fileID: 8300000, guid: 9e083ccd2f5e5f34f9a69c258ea98480, type: 3}
   - text: Lanjutnya.
     voiceClip: {fileID: 8300000, guid: d53d829e807e50442b5597fcf639face, type: 3}
   - text: Rani menatap Raka, lalu mereka terbang tinggi.
