@@ -21,31 +21,31 @@ public class DialogueSystem : MonoBehaviour
 
     [Header("Dialogue Component")]
     [SerializeField] TextMeshProUGUI dialogueText;
-    [SerializeField] Image textBackground;
-    [SerializeField] float backgroundAlphaValue;
+    //[SerializeField] Image textBackground;
+    //[SerializeField] float backgroundAlphaValue;
     [SerializeField] float textFadeDuration;
     [SerializeField] AudioSource dialogueAudio;
 
     Coroutine dialogueCoroutine;
 
     float maxAlphaText;
-    float maxAlphaBackground;
+    //float maxAlphaBackground;
     private void Awake()
     {
         maxAlphaText = dialogueText.color.a;
-        maxAlphaBackground = textBackground.color.a;
+        //maxAlphaBackground = textBackground.color.a;
     }
 
     void AlphaFadeIn()
     {
         dialogueText.DOFade(1f, textFadeDuration).SetEase(Ease.Linear);
-        textBackground.DOFade(backgroundAlphaValue, textFadeDuration).SetEase(Ease.Linear);
+        //textBackground.DOFade(backgroundAlphaValue, textFadeDuration).SetEase(Ease.Linear);
     }
 
     void AlphaFadeOut()
     {
         dialogueText.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
-        textBackground.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
+        //textBackground.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
     }
 
     private void OnEnable()
@@ -65,9 +65,9 @@ public class DialogueSystem : MonoBehaviour
         textTransparent.a = 0f;
         dialogueText.color = textTransparent;
 
-        Color backTransparent = textBackground.color;
-        backTransparent.a = 0f;
-        textBackground.color = backTransparent;
+        //Color backTransparent = textBackground.color;
+        //backTransparent.a = 0f;
+        //textBackground.color = backTransparent;
 
         dialogueCoroutine = StartCoroutine(PlayDialogue());
     }
@@ -98,7 +98,7 @@ public class DialogueSystem : MonoBehaviour
         }
 
         //dialogueText.enabled = false;
-        AlphaFadeOut();
+        //AlphaFadeOut();
     }
 
     private void OnDisable()
