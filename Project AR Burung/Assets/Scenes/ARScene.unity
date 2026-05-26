@@ -12043,8 +12043,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Rani dan Raka senang bermain di rumah itu. Rumah bersejarah di wilayah
-      yang masih asri. Lingkungan tenang dan langit yang berseri.
+  - text: 'Rani dan Raka senang bermain di rumah itu. Rumah bersejarah di wilayah
+
+      yang
+      masih asri. Lingkungan tenang dan langit yang berseri.'
     voiceClip: {fileID: 8300000, guid: 51da0d1f51ece5d4082ec7cb62a327ed, type: 3}
   dialogueText: {fileID: 680913066}
   dialogueTextOutline: {fileID: 5960872}
