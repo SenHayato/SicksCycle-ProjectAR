@@ -6356,20 +6356,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Kita harus ke Utara.
+  - text: "\u201CKita harus ke Utara,\u201D"
     voiceClip: {fileID: 8300000, guid: b0382ff0fc9350b4caa3dd181225c31f, type: 3}
   - text: kata Rani.
     voiceClip: {fileID: 8300000, guid: 244d08a6ac6adff4282de34137749c9f, type: 3}
-  - text: Apakah disana hutan masih asri?
+  - text: "\u201CApakah di sana hutan masih asri?\u201D"
     voiceClip: {fileID: 8300000, guid: c711994847f4b7440a12943ac0f63571, type: 3}
   - text: tanya Raka.
     voiceClip: {fileID: 8300000, guid: 45f48636ce5a9664ea37424743ecd842, type: 3}
-  - text: "Sepertinya begitu, nanti kita cari lagi pohon \nyang dekat dengan rumah
-      agar bisa bermain."
+  - text: "\u201CSepertinya begitu, nanti kita cari lagi pohon yang dekat\ndengan
+      rumah agar bisa bermain.\u201D"
     voiceClip: {fileID: 8300000, guid: 2603f19a01f7f4646ac6fbe747f68041, type: 3}
-  - text: 'Rani dan Raka menatap jauh ke depan. Berharap bisa
+  - text: 'Rani dan Raka menatap jauh ke depan. Berharap bisa melihat
 
-      melihat hutan
+      hutan
       dan rumah untuk mereka bermain bersama.'
     voiceClip: {fileID: 8300000, guid: 40968e6a5a1bc014e861f3b473791ab4, type: 3}
   dialogueText: {fileID: 1242739272}
@@ -7758,14 +7758,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Ada satu kamar untuk orang tua. Anak-anak tidur dan beristirahat
-
-      di
-      ruang terbuka, kecuali anak perempuan. Anak perempuan akan tidur
-
-      di
-      bagian atas rumah. Tepatnya di loteng atau geligei'
-    voiceClip: {fileID: 8300000, guid: a0f164249167525479bb1f6624fc628b, type: 3}
+  - text: Ada satu kamar untuk orang tua. Anak-anak tidur dan beristirahat di ruang
+      terbuka, kecuali anak perempuan.
+    voiceClip: {fileID: 8300000, guid: adb5f7f1da9544f4dad8e9f18ef136d6, type: 3}
+  - text: Anak perempuan akan tidur di bagian atas rumah. Tepatnya di loteng atau
+      geligei.
+    voiceClip: {fileID: 8300000, guid: 3777a79d475e38e4d9c3a2e56aee594c, type: 3}
   dialogueText: {fileID: 1123209093}
   dialogueTextOutline: {fileID: 1988826468}
   textFadeDuration: 0.5
@@ -11347,13 +11345,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Ada bangunan khusus untuk dapur di belakang rumah. \nDapur terhubung dengan
-      badan rumah melalui papan \nyang disambung. Selain berfungsi untuk memasak,
-      \ndapur juga digunakan untuk menyimpan peralatan makan."
+  - text: Ada bangunan khusus untuk dapur di belakang rumah. Dapur terhubung dengan
+      badan rumah melalui papan yang disambung
     voiceClip: {fileID: 8300000, guid: c28afad09ad8dea41ba2a00a44269cc1, type: 3}
-  - text: "Lumbung padi biasanya terletak di belakang atau depan rumah. \nLumbung
-      padi digunakan untuk menyimpan hasil panen."
+  - text: 'Selain berfungsi untuk memasak, dapur juga digunakan untuk
+
+      menyimpan
+      peralatan makan.'
     voiceClip: {fileID: 8300000, guid: 86cfc20cacdcf334fb53f9145672a141, type: 3}
+  - text: 'Lumbung padi biasanya terletak di belakang
+
+      atau depan rumah. Lumbung
+      padi digunakan
+
+      untuk menyimpan hasil panen.'
+    voiceClip: {fileID: 8300000, guid: 5095a08dc0134d04ebdeeaa7159bc2ab, type: 3}
   dialogueText: {fileID: 1451908777}
   dialogueTextOutline: {fileID: 44270862}
   textFadeDuration: 0.5
@@ -30796,8 +30802,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Pohon di mana sarang mereka berada dirubuhkan.\r\nRani dan Raka bersiap
-      terbang ke Utara.\r"
+  - text: 'Pohon di mana sarang mereka berada dirubuhkan.
+
+      Rani dan Raka bersiap
+      terbang ke arah Utara.'
     voiceClip: {fileID: 8300000, guid: 1d8abf4db4b9c5b4da8df21275d7abab, type: 3}
   - text: "\u201CAyo kita pergi Rani,\u201D"
     voiceClip: {fileID: 8300000, guid: df8560cd7c893d048a60d54d48abca52, type: 3}
@@ -35771,10 +35779,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Rani dan Raka terbang tinggi. Sesekali mereka terhalang\nangin yang sangat
-      kencang. Langit sudah mendung.\r\nUdara sangat dingin. Sepertinya, hujan sebentar
-      lagi datang\r"
-    voiceClip: {fileID: 8300000, guid: dba844fff4e871145881bfb56da8da1d, type: 3}
+  - text: 'Rani dan Raka terbang tinggi. Sesekali mereka terhalang
+
+      angin yang
+      sangat kencang.'
+    voiceClip: {fileID: 8300000, guid: 17b473ac966ed4e468f3ab588a0764a8, type: 3}
+  - text: Langit sudah mendung. Udara sangat dingin. Sepertinya, hujan sebentar lagi
+      datang.
+    voiceClip: {fileID: 8300000, guid: e00a00de31368034cb77617221b5bbd5, type: 3}
   dialogueText: {fileID: 1125874409}
   dialogueTextOutline: {fileID: 474036266}
   textFadeDuration: 0.5
