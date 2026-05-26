@@ -1076,17 +1076,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Di sebelah rumah Pangeran Ali, ada sebuah rumah\npanggung. Rumah itu terbuat
-      dari kayu dan\nmemiliki tangga di depannya. Rumah itu berukuran kecil.\r"
+  - text: Di sebelah rumah Pangeran Ali, ada sebuah rumah panggung. Rumah itu terbuat
+      dari kayu dan memiliki tangga di depannya. Rumah itu berukuran kecil.
     voiceClip: {fileID: 8300000, guid: b71d68c13ab23dc43b475ae36e7eb62c, type: 3}
-  - text: 'Dulunya, rumah itu digunakan sebagai tempat tinggal ajudan.
+  - text: 'Dulunya, rumah itu digunakan sebagai tempat tinggal
 
-      Ketika
-      masa perjuangan, rumah Pangeran Ali merupakan
-
-      pusat kegiatan politik.
-      Ajudan tinggal di sebelah untuk berjaga-jaga.'
+      ajudan.'
     voiceClip: {fileID: 8300000, guid: 271606519f08d44489e57b0f008d0337, type: 3}
+  - text: Ketika masa perjuangan, rumah Pangeran Ali merupakan pusat kegiatan politik.
+      Ajudan tinggal di sebelah untuk berjaga-jaga.
+    voiceClip: {fileID: 8300000, guid: 7631dd4dbcbe08b4ea086e9b16ce0a3e, type: 3}
   dialogueText: {fileID: 2004487385}
   dialogueTextOutline: {fileID: 1194436613}
   textFadeDuration: 0.5
@@ -2201,15 +2200,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Menuju ke lantai dua harus menggunakan tangga yang ada
-
-      di ruang
-      keluarga. Di lantai atas ini hanya ada ruangan luas saja.'
+  - text: Menuju ke lantai dua harus menggunakan tangga yang ada di ruang keluarga.
+      Di lantai atas ini hanya ada ruangan luas saja.
     voiceClip: {fileID: 8300000, guid: d0f32130d4f11a140aa0a188fa7073b6, type: 3}
-  - text: 'Ruangan atas ini dikelilingi jendela kaca.
-
-      Jendela kaca kombinasi
-      bentuk persegi panjang dan oval.'
+  - text: Ruangan atas ini dikelilingi jendela kaca. Jendela kaca kombinasi bentuk
+      persegi panjang dan oval.
     voiceClip: {fileID: 8300000, guid: 38ecb16821f92e14b8dc15c801d57fe9, type: 3}
   dialogueText: {fileID: 288527250}
   dialogueTextOutline: {fileID: 1195187618}
@@ -7071,27 +7066,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "\u201CLihat rumah ini pernah jadi markas dan tempat tinggal AK. Gani!\u201D"
+  - text: "\u201CLihat rumah ini pernah jadi markas dan\r\ntempat tinggal AK. Gani!\""
     voiceClip: {fileID: 8300000, guid: 5968ddc5d0b4bf047948b5c39c7fe716, type: 3}
   - text: kata Rani.
-    voiceClip: {fileID: 8300000, guid: 0ebb79001bbde07469a9377574955c6c, type: 3}
-  - text: "\"Siapa dia?\u201D "
+    voiceClip: {fileID: 8300000, guid: 3b491cd89723ce044a6edcb9215be488, type: 3}
+  - text: "\u201CSiapa dia?\u201D"
     voiceClip: {fileID: 8300000, guid: ccda9e89bcd132b439a10edc13572d05, type: 3}
   - text: "\u201CPahlawan Nasional\u201D"
     voiceClip: {fileID: 8300000, guid: 220b143d4b324844a9783d936e35ccd1, type: 3}
   - text: kata Rani.
-    voiceClip: {fileID: 8300000, guid: 0ebb79001bbde07469a9377574955c6c, type: 3}
-  - text: 'Ak. Gani bernama lengkap Adnan Kapau Gani. Ia seorang Gubernur
-
-      Militer.
-      Ia bertugas pada masa agresi Belanda ke wilayah Indonesia
-
-      termasuk Bengkulu.
-      Ia mengusir Belanda yang ingin menguasai emas
-
-      di Lebong Tandai, wilayah
-      yang tidak jauh dari Desa Napal Putih'
-    voiceClip: {fileID: 8300000, guid: 3b491cd89723ce044a6edcb9215be488, type: 3}
+    voiceClip: {fileID: 8300000, guid: 1632522f792089a4d93ca69e4d3cbcc1, type: 3}
+  - text: AK. Gani bernama lengkap Adnan Kapau Gani. Ia seorang Gubernur Militer.
+      Ia bertugas pada masa agresi Belanda ke wilayah Indonesia termasuk Bengkulu.
+    voiceClip: {fileID: 8300000, guid: 872a7a4246704a148863086494ecc8c1, type: 3}
+  - text: Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai, wilayah
+      yang tidak jauh dari Desa Napal Putih.
+    voiceClip: {fileID: 8300000, guid: 5a30bb8cb44a9bf45b5999d3de8ec468, type: 3}
   dialogueText: {fileID: 694395973}
   dialogueTextOutline: {fileID: 116940259}
   textFadeDuration: 0.5
@@ -7500,7 +7490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 380583544}
   m_Layer: 0
-  m_Name: Page 32-33
+  m_Name: Page 32-33 (NA 32(4) belum dipotong)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12053,12 +12043,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Rani dan Raka senang bermain di rumah itu.
-
-      Rumah bersejarah di
-      wilayah yang masih asri.
-
-      Lingkungan tenang dan langit yang berseri.'
+  - text: Rani dan Raka senang bermain di rumah itu. Rumah bersejarah di wilayah
+      yang masih asri. Lingkungan tenang dan langit yang berseri.
     voiceClip: {fileID: 8300000, guid: 51da0d1f51ece5d4082ec7cb62a327ed, type: 3}
   dialogueText: {fileID: 680913066}
   dialogueTextOutline: {fileID: 5960872}
