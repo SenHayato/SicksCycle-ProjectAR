@@ -923,17 +923,11 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: c7a63cf95e32ed448ad8a1eed327ca9c, type: 3}
   - text: "\u201CAyo, kita bermain di sana!\u201D"
     voiceClip: {fileID: 8300000, guid: d8f54425039a24c428de1b9260e39bb5, type: 3}
-  - text: 'Mereka masuk ke dalam rumah yang luas itu.
-
-      Mereka masuk dari jendela
-      kayu yang
-
-      terbuka lebar.'
+  - text: Mereka masuk ke dalam rumah yang luas itu. Mereka masuk dari jendela kayu
+      yang terbuka lebar
     voiceClip: {fileID: 8300000, guid: f9938f7a6fa120d45baeaa10d1d72ea4, type: 3}
-  - text: 'Rumah berwarna kream itu memiliki
-
-      banyak jendela kayu dan kaca.'
-    voiceClip: {fileID: 8300000, guid: f9938f7a6fa120d45baeaa10d1d72ea4, type: 3}
+  - text: Rumah berwarna kream itu memiliki banyak jendela kayu dan kaca.
+    voiceClip: {fileID: 8300000, guid: c0247e215d5c2404e8a17e8283df3365, type: 3}
   dialogueText: {fileID: 679234381}
   dialogueTextOutline: {fileID: 1116420492}
   textFadeDuration: 0.5
@@ -5812,7 +5806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 302748625}
   m_Layer: 0
-  m_Name: Page 20-21
+  m_Name: Page 20-21 (NA 20(2) masih nyatu)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19076,28 +19070,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Raka dan Rani membangun sarang mereka di
-
-      sebuah pohon besar. Mereka
-      tampak bahagia
-
-      memiliki sarang baru.'
+  - text: Raka dan Rani membangun sarang mereka di sebuah pohon besar. Mereka tampak
+      bahagia memiliki sarang baru
     voiceClip: {fileID: 8300000, guid: 80e1f6e600d7a0649ac29b0753d478dc, type: 3}
-  - text: 'Mereka melihat rumah bersejarah
-
-      milik Pangeran Ali. Rumah itu bertingkat
-
-      dan
-      besar.'
+  - text: Mereka melihat rumah bersejarah milik Pangeran Ali. Rumah itu bertingkat
+      dan besar
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
-  - text: 'Rumah itu berada di atas tanah
-
-      yang sangat luas.'
+  - text: Rumah itu berada di atas tanah yang sangat luas.
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
-  - text: 'Namun, ada satu rumah berukuran kecil
-
-      berbentuk rumah panggung
-      di sebelahnya.'
+  - text: Namun, ada satu rumah berukuran kecil berbentuk rumah panggung di sebelahnya.
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
   dialogueText: {fileID: 776861451}
   dialogueTextOutline: {fileID: 2040734168}
@@ -22744,10 +22725,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Di area belakang, terdapat sumur, satu kamar, dan satu kamar mandi.
+  m_text: 'Di area belakang, terdapat sumur, satu kamar,
 
-    Ada
-    pintu belakang yangmengarah ke area halaman belakang dan kebun.'
+    dan satu kamar mandi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -27249,10 +27229,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Di area belakang, terdapat sumur, satu kamar, dan satu kamar mandi.
+  m_text: 'Di area belakang, terdapat sumur, satu kamar,
 
-    Ada
-    pintu belakang yangmengarah ke area halaman belakang dan kebun.'
+    dan satu kamar mandi.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f95239f3489fdc541b99a880372b84ec, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: f95239f3489fdc541b99a880372b84ec,
@@ -27319,7 +27298,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1194405271
@@ -39516,24 +39495,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Rani dan Raka tiba di Desa Napal Putih dengan tubuh basah.
-
-      Mereka
-      kehujanan selama di perjalanan. '
+  - text: Rani dan Raka tiba di Desa Napal Putih dengan tubuh basah. Mereka kehujanan
+      selama di perjalanan.
     voiceClip: {fileID: 8300000, guid: 4700ec5a95e731d43b7048e7e0e7faa4, type: 3}
-  - text: 'Lalu, mata mereka berbinar melihat rumah Pangeran Ali yang tampak
-
-      megah
-      dan luas. Di belakang rumah itu tampak hutan dan kebun sawit.'
+  - text: Lalu, mata mereka berbinar melihat rumah Pangeran Ali yang tampak megah
+      dan luas.
+    voiceClip: {fileID: 8300000, guid: 8191da3920372ed45b7851bd2d56544e, type: 3}
+  - text: Di belakang rumah itu tampak hutan dan kebun sawit.
     voiceClip: {fileID: 8300000, guid: be86a489d3178074fa49903d96d8c71e, type: 3}
-  - text: "\u201CRani, kita bisa tinggal di belakang rumah itu!\u201D"
+  - text: "\u201CRani, kita bisa tinggal di belakang rumah\r\nitu!\u201D"
     voiceClip: {fileID: 8300000, guid: 168846104e63c8f40be0d4196b6ddfde, type: 3}
   - text: seru Raka.
-    voiceClip: {fileID: 8300000, guid: 8191da3920372ed45b7851bd2d56544e, type: 3}
-  - text: "\u201CIya, aku setuju.\u201D"
+    voiceClip: {fileID: 8300000, guid: aa0a8dd34def0ae4f926a90a6e425858, type: 3}
+  - text: "\"Iya, aku setuju.\u201D"
     voiceClip: {fileID: 8300000, guid: c1eb5a27a1a809e4cad2fbf01848db1b, type: 3}
   - text: jawab Rani.
-    voiceClip: {fileID: 8300000, guid: be86a489d3178074fa49903d96d8c71e, type: 3}
+    voiceClip: {fileID: 8300000, guid: 24ce0ec8ac709d54295389a4d75fedb7, type: 3}
   dialogueText: {fileID: 382628655}
   dialogueTextOutline: {fileID: 1554649555}
   textFadeDuration: 0.5
@@ -40358,16 +40335,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Walau tidak dihuni, pada bagian ruang tamu
+  - text: 'Walau tidak dihuni, pada bagian ruang tamu masih
 
-      masih terdapat kursi
-      peninggalan keluarga
-
-      Pangeran Ali. Kursi itu terbuat dari kayu dan anyaman
+      terdapat kursi
+      peninggalan keluarga Pangeran Ali. Kursi itu terbuat dari kayu dan anyaman
       rotan.'
     voiceClip: {fileID: 8300000, guid: 8db01c937efd1a945bc53a3da3172466, type: 3}
-  - text: "Rumah ini sudah dijadikan cagar budaya.\nSiapa pun boleh berkunjung untuk
-      melihat\ndan mendapatkan informasi cerita bersejarah.\r"
+  - text: Rumah ini sudah dijadikan cagar budaya. Siapa pun boleh berkunjung untuk
+      melihat dan mendapatkan informasi cerita bersejarah.
     voiceClip: {fileID: 8300000, guid: 9483ac11f71a19246812e1400da9e803, type: 3}
   dialogueText: {fileID: 1942019983}
   dialogueTextOutline: {fileID: 1489409804}
@@ -43527,14 +43502,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Rumah Pangeran Ali terdiri dari dua lantai. \nDi lantai bawah terdapat
-      ruang tamu, ruang keluarga, kamar, dan dapur."
+  - text: Rumah Pangeran Ali terdiri dari dua lantai. Di lantai bawah terdapat ruang
+      tamu, ruang keluarga, kamar, dan dapur.
     voiceClip: {fileID: 8300000, guid: 4287b7c36efd17342b2403ba5467a74f, type: 3}
-  - text: 'Di area belakang, terdapat sumur, satu kamar, dan satu kamar mandi.
+  - text: 'Di area belakang, terdapat sumur, satu kamar,
 
-      Ada
-      pintu belakang yangmengarah ke area halaman belakang dan kebun.'
+      dan satu kamar mandi.'
     voiceClip: {fileID: 8300000, guid: 368afbbbac5d39b47b2aca2acac6918a, type: 3}
+  - text: Ada pintu belakang yang mengarah ke area halaman belakang dan kebun.
+    voiceClip: {fileID: 8300000, guid: 09b2c18b48d842444b8c0d294f36995d, type: 3}
   dialogueText: {fileID: 996292935}
   dialogueTextOutline: {fileID: 1194405270}
   textFadeDuration: 0.5
