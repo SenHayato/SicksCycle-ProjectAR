@@ -21,6 +21,7 @@ public class DialogueSystem : MonoBehaviour
 
     [Header("Dialogue Component")]
     [SerializeField] TextMeshProUGUI dialogueText;
+    [SerializeField] TextMeshProUGUI dialogueTextOutline;
     //[SerializeField] Image textBackground;
     //[SerializeField] float backgroundAlphaValue;
     [SerializeField] float textFadeDuration;
@@ -28,23 +29,17 @@ public class DialogueSystem : MonoBehaviour
 
     Coroutine dialogueCoroutine;
 
-    float maxAlphaText;
-    //float maxAlphaBackground;
-    private void Awake()
-    {
-        maxAlphaText = dialogueText.color.a;
-        //maxAlphaBackground = textBackground.color.a;
-    }
-
     void AlphaFadeIn()
     {
         dialogueText.DOFade(1f, textFadeDuration).SetEase(Ease.Linear);
+        dialogueTextOutline.DOFade(1f, textFadeDuration).SetEase(Ease.Linear);
         //textBackground.DOFade(backgroundAlphaValue, textFadeDuration).SetEase(Ease.Linear);
     }
 
     void AlphaFadeOut()
     {
         dialogueText.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
+        dialogueTextOutline.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
         //textBackground.DOFade(0f, textFadeDuration).SetEase(Ease.Linear);
     }
 
@@ -64,6 +59,7 @@ public class DialogueSystem : MonoBehaviour
         Color textTransparent = dialogueText.color;
         textTransparent.a = 0f;
         dialogueText.color = textTransparent;
+        dialogueTextOutline.color = textTransparent;
 
         //Color backTransparent = textBackground.color;
         //backTransparent.a = 0f;
@@ -79,6 +75,7 @@ public class DialogueSystem : MonoBehaviour
             DialogueLine line = dialogues[currentIndex];
 
             dialogueText.text = line.text;
+            dialogueTextOutline.text = line.text;
 
             dialogueAudio.clip = line.voiceClip;
             dialogueAudio.Play();
