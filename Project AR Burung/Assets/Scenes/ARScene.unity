@@ -14080,7 +14080,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Test Cover
+  - text: Halo Adik - adik, hari ini kita akan membaca buku berjudul "Rumah Kita
+      di Bengkulu"
+    voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
+  - text: Buku ini di tulis Kak Ira Diana dan Ilustratornya Kak Muhammad Basri Assegaf
+    voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
+  - text: Yuk kita mulai membacanya
     voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
   dialogueText: {fileID: 1686339564}
   dialogueTextOutline: {fileID: 1150107784}
@@ -22510,12 +22515,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Dua ekor burung Rangkong tinggal di dekat rumah adat suku Rejang. \nDi
-      sebuah pohon besar dan rindang. \nDua burung yang bersahabat itu bernama Raka
-      dan Rani.\r"
+  - text: 'Dua ekor burung Rangkong tinggal di dekat rumah adat
+
+      suku Rejang.
+      Di sebuah pohon besar dan rindang'
     voiceClip: {fileID: 8300000, guid: d2802dfa6f7c6634cb8257e2035ee5a9, type: 3}
-  - text: "\r\rRumah itu bernama \u201CUmaek Potong Jang\u201D\r"
+  - text: 'Dua
+
+      burung yang bersahabat itu bernama Raka dan Rani.'
     voiceClip: {fileID: 8300000, guid: 1c073dc8d97d8de4c84e878c0bf59385, type: 3}
+  - text: "Rumah itu bernama \u201CUmaek Potong Jang\u201D"
+    voiceClip: {fileID: 8300000, guid: ed4eeae467854fa4aadcfbc70f15fbac, type: 3}
   dialogueText: {fileID: 930716266}
   dialogueTextOutline: {fileID: 342220005}
   textFadeDuration: 0.5
@@ -24002,10 +24012,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Ornamen Umaek Potong Jang berbentuk ukiran dan lukisan.\r\nAda gambar
-      bintang seperti Matahari. \nAda lukisan meliuk seperti gelombang.\nAda yang
-      seperti gambar kepak sayap burung.\r "
-    voiceClip: {fileID: 8300000, guid: 95c985685f1d63347b4c482ca9df9bfd, type: 3}
+  - text: Ornamen Umaek Potong Jang berbentuk ukiran dan lukisan.
+    voiceClip: {fileID: 8300000, guid: efb4664c3319c0448b7c0b7ba7398df3, type: 3}
+  - text: 'Ada gambar bintang seperti Matahari. Ada lukisan meliuk seperti
+
+      gelombang.
+      Ada yang seperti gambar kepak sayap burung.'
+    voiceClip: {fileID: 8300000, guid: 51f41408cc5da92429a19510179f7068, type: 3}
   dialogueText: {fileID: 394278590}
   dialogueTextOutline: {fileID: 2098470810}
   textFadeDuration: 0.5
@@ -29010,14 +29023,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: "Umaek Potong Jang berbentuk rumah panggung. Atapnya terbuat dari daun
-      rumbia.\nAda tangga di sisi rumah menuju ke barendo (teras). \nDi bagian dalam
-      ada ruang terbuka.\r\nDi sana, anggota keluarga berkumpul atau tidur.\r"
-    voiceClip: {fileID: 8300000, guid: 3b42bd77afe2b63469a6c38e55be4cd3, type: 3}
-  - text: "Umaek Potong Jang berbentuk rumah panggung. Atapnya terbuat dari daun
-      rumbia.\nAda tangga di sisi rumah menuju ke barendo (teras). \nDi bagian dalam
-      ada ruang terbuka.\r\nDi sana, anggota keluarga berkumpul atau tidur.\r"
-    voiceClip: {fileID: 8300000, guid: 3b42bd77afe2b63469a6c38e55be4cd3, type: 3}
+  - text: 'Umaek Potong Jang berbentuk rumah panggung. Atapnya terbuat dari daun
+      rumbia. '
+    voiceClip: {fileID: 8300000, guid: b0dff28b8b52d83448fe16f9759a08ee, type: 3}
+  - text: 'Ada tangga di sisi rumah menuju
+
+      ke barendo (teras).'
+    voiceClip: {fileID: 8300000, guid: cc157542911853e4fbaaa11732b4fb50, type: 3}
+  - text: 'Di bagian dalam ada ruang terbuka.
+
+      Di sana, anggota keluarga berkumpul
+      atau tidur.'
+    voiceClip: {fileID: 8300000, guid: 702def844f4991f47a32be171e1ddd8e, type: 3}
   dialogueText: {fileID: 714033485}
   dialogueTextOutline: {fileID: 1982916309}
   textFadeDuration: 0.5
@@ -35579,9 +35596,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Mereka terbang ke teras Umaek Potong Jang.
+  - text: 'Mereka terbang ke teras Umaek Potong Jang. '
     voiceClip: {fileID: 8300000, guid: 4726edeb80d737d43b89d52a1e7849b4, type: 3}
-  - text: "\u201CSayang sekali kita tidak bisa tinggal di sini lebih lama,\u201D"
+  - text: "\u201CSayang sekali kita tidak bisa tinggal di sini lebih lama,\u201D
+      \r"
     voiceClip: {fileID: 8300000, guid: 32e2f6b6807da5c4eb2e3f855725b2e8, type: 3}
   - text: kata Rani sedih.
     voiceClip: {fileID: 8300000, guid: 5050dd3370ddd744fa4f095d231f6e8d, type: 3}
@@ -35589,27 +35607,21 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 2d67163cdb4cc744192a439297bcdc00, type: 3}
   - text: ' kata Raka.'
     voiceClip: {fileID: 8300000, guid: d66887140a338c04b81ecf18e5fd78fd, type: 3}
-  - text: "\u201CBesok pasti akan ada yang menebangnya.\u201D "
+  - text: "\u201CBesok pasti akan ada yang menebangnya.\u201D"
     voiceClip: {fileID: 8300000, guid: e23a3329c14d6f24b94e97b9aa73dead, type: 3}
-  - text: Lanjutnya.
+  - text: ' Lanjutnya.'
     voiceClip: {fileID: 8300000, guid: 0d3c1bc50b21dac488a0113ff690a0c7, type: 3}
-  - text: 'Padahal aku suka tempat ini. Apalagi rumah ini, tempat kita
-
-      bermain,"'
+  - text: "\u201CPadahal aku suka tempat ini. Apalagi rumah ini, tempat kita bermain,\u201D"
     voiceClip: {fileID: 8300000, guid: 8cbf9cfe7dbe56c4e8513b623b7ce56d, type: 3}
-  - text: kata Rani.
+  - text: 'kata Rani '
     voiceClip: {fileID: 8300000, guid: dd6f5bdb4ecaf5c4395fef011e6f852a, type: 3}
-  - text: '"Aku juga, rumah ini besar dan kokoh.
-
-      Aku juga suka ornamen di
-      dinding kayunya itu!"'
+  - text: "\"Aku juga, rumah ini besar dan kokoh. Aku juga suka ornamen\r\ndi dinding
+      kayunya itu!\u201D"
     voiceClip: {fileID: 8300000, guid: c3617bc04eb82f9478883617b50ac8da, type: 3}
   - text: Seru Raka.
     voiceClip: {fileID: 8300000, guid: d6a617f1dda35e74c8cbe8c0a44ea492, type: 3}
-  - text: 'Umaek Potong Jang menjadi tempat bermain kedua burung itu.
-
-      Mereka
-      sering masuk ke dalam rumah atau terbang di bawah kolong rumah.'
+  - text: Umaek Potong Jang menjadi tempat bermain kedua burung itu. Mereka sering
+      masuk ke dalam rumah atau terbang di bawah kolong rumah.
     voiceClip: {fileID: 8300000, guid: 57053770a0b083e41a3c470389429205, type: 3}
   dialogueText: {fileID: 265742771}
   dialogueTextOutline: {fileID: 1803345900}
@@ -38351,7 +38363,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Halo Adik - adik, hari ini kita akan membaca buku berjudul "Rumah Kita
+    di Bengkulu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -43744,7 +43757,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1982916310
