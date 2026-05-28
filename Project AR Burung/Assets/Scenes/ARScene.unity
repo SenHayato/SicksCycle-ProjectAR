@@ -154,10 +154,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 847738112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1.14, y: -0.11}
+  m_SizeDelta: {x: 2.28, y: 0.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5960872
 MonoBehaviour:
@@ -1351,7 +1351,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_SizeDelta: {x: 4.02, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50069675
 MonoBehaviour:
@@ -5817,7 +5817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &302748625
 Transform:
   m_ObjectHideFlags: 0
@@ -6960,7 +6960,7 @@ Transform:
   m_GameObject: {fileID: 362826285}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7087,11 +7087,15 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 220b143d4b324844a9783d936e35ccd1, type: 3}
   - text: kata Rani.
     voiceClip: {fileID: 8300000, guid: 1632522f792089a4d93ca69e4d3cbcc1, type: 3}
-  - text: AK. Gani bernama lengkap Adnan Kapau Gani. Ia seorang Gubernur Militer.
-      Ia bertugas pada masa agresi Belanda ke wilayah Indonesia termasuk Bengkulu.
+  - text: 'AK. Gani bernama lengkap Adnan Kapau Gani. Ia seorang Gubernur Militer.
+
+      Ia
+      bertugas pada masa agresi Belanda ke wilayah Indonesia termasuk Bengkulu.'
     voiceClip: {fileID: 8300000, guid: 872a7a4246704a148863086494ecc8c1, type: 3}
-  - text: Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai, wilayah
-      yang tidak jauh dari Desa Napal Putih.
+  - text: 'Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai,
+
+      wilayah
+      yang tidak jauh dari Desa Napal Putih.'
     voiceClip: {fileID: 8300000, guid: 5a30bb8cb44a9bf45b5999d3de8ec468, type: 3}
   dialogueText: {fileID: 694395973}
   dialogueTextOutline: {fileID: 116940259}
@@ -15973,10 +15977,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 783098361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1.14, y: -0.11}
+  m_SizeDelta: {x: 2.28, y: 0.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680913066
 MonoBehaviour:
@@ -16343,8 +16347,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.285, y: -0.105}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_AnchoredPosition: {x: 2.01, y: -0.21}
+  m_SizeDelta: {x: 4.02, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &694395973
 MonoBehaviour:
@@ -16366,7 +16370,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai,
+
+    wilayah
+    yang tidak jauh dari Desa Napal Putih.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -17757,10 +17764,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2111231389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1.215, y: -0.315}
-  m_SizeDelta: {x: 2.43, y: 0.63}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &776861451
 MonoBehaviour:
@@ -17782,12 +17789,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mereka melihat rumah bersejarah
+  m_text: 'Namun, ada satu rumah berukuran kecil
 
-    milik Pangeran Ali. Rumah itu bertingkat
-
-    dan
-    besar.'
+    berbentuk rumah panggung di
+    sebelahnya.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -18005,7 +18010,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 2.28, y: 0.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783098362
 MonoBehaviour:
@@ -19066,15 +19071,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Raka dan Rani membangun sarang mereka di sebuah pohon besar. Mereka tampak
-      bahagia memiliki sarang baru
+  - text: 'Raka dan Rani membangun sarang mereka
+
+      di sebuah pohon besar. Mereka
+      tampak
+
+      bahagia memiliki sarang baru'
     voiceClip: {fileID: 8300000, guid: 80e1f6e600d7a0649ac29b0753d478dc, type: 3}
-  - text: Mereka melihat rumah bersejarah milik Pangeran Ali. Rumah itu bertingkat
-      dan besar
+  - text: 'Mereka melihat rumah bersejarah milik Pangeran Ali.
+
+      Rumah itu bertingkat
+      dan besar'
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
   - text: Rumah itu berada di atas tanah yang sangat luas.
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
-  - text: Namun, ada satu rumah berukuran kecil berbentuk rumah panggung di sebelahnya.
+  - text: 'Namun, ada satu rumah berukuran kecil
+
+      berbentuk rumah panggung
+      di sebelahnya.'
     voiceClip: {fileID: 8300000, guid: ec7913010f1ab204abf310cf2779b612, type: 3}
   dialogueText: {fileID: 776861451}
   dialogueTextOutline: {fileID: 2040734168}
@@ -19685,7 +19699,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 2.28, y: 0.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847738113
 MonoBehaviour:
@@ -37323,7 +37337,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.668, y: 2.735}
-  m_SizeDelta: {x: 2.43, y: 0.63}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652490243
 MonoBehaviour:
@@ -39682,7 +39696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1768915531
 Transform:
   m_ObjectHideFlags: 0
@@ -44840,10 +44854,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1652490242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1.215, y: -0.315}
-  m_SizeDelta: {x: 2.43, y: 0.63}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040734168
 MonoBehaviour:
@@ -45955,7 +45969,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.668, y: 2.735}
-  m_SizeDelta: {x: 2.43, y: 0.63}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111231390
 MonoBehaviour:
