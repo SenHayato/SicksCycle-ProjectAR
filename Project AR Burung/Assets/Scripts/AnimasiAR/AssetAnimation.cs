@@ -26,7 +26,7 @@ public class AssetAnimation : MonoBehaviour
         Rotate, Position
     }
 
-    private void Awake()
+    private void StartDG()
     {
         switch (animationType)
         {
@@ -41,6 +41,8 @@ public class AssetAnimation : MonoBehaviour
 
     private void OnEnable()
     {
+        StartDG();
+
         if (introAnimation != null)
         {
             Invoke(nameof(PlayAnimation), introAnimation.clip.length + timeBeforeTween);
