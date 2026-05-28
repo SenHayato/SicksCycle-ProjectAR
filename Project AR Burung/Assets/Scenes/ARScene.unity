@@ -923,8 +923,10 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: c7a63cf95e32ed448ad8a1eed327ca9c, type: 3}
   - text: "\u201CAyo, kita bermain di sana!\u201D"
     voiceClip: {fileID: 8300000, guid: d8f54425039a24c428de1b9260e39bb5, type: 3}
-  - text: Mereka masuk ke dalam rumah yang luas itu. Mereka masuk dari jendela kayu
-      yang terbuka lebar
+  - text: 'Mereka masuk ke dalam rumah yang luas itu.
+
+      Mereka masuk dari jendela
+      kayu yang terbuka lebar'
     voiceClip: {fileID: 8300000, guid: f9938f7a6fa120d45baeaa10d1d72ea4, type: 3}
   - text: Rumah berwarna kream itu memiliki banyak jendela kayu dan kaca.
     voiceClip: {fileID: 8300000, guid: c0247e215d5c2404e8a17e8283df3365, type: 3}
@@ -3799,7 +3801,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 2.8}
-  m_SizeDelta: {x: 2.7, y: 0.63}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202961348
 MonoBehaviour:
@@ -5226,7 +5228,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 2.8}
-  m_SizeDelta: {x: 2.7, y: 0.63}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279196809
 MonoBehaviour:
@@ -7791,10 +7793,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 478804331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1.39, y: -0.105}
+  m_SizeDelta: {x: 2.78, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382628655
 MonoBehaviour:
@@ -7816,7 +7818,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Di belakang rumah itu tampak hutan dan kebun sawit.
+  m_text: '"Rani kita bisa tinggal di belakang rumah itu!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -10618,7 +10620,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 2.78, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478804332
 MonoBehaviour:
@@ -15830,10 +15832,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 279196808}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1.35, y: -0.315}
-  m_SizeDelta: {x: 2.7, y: 0.63}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679234381
 MonoBehaviour:
@@ -15855,12 +15857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mereka masuk ke dalam rumah yang luas itu.
-
-    Mereka masuk dari jendela
-    kayu yang
-
-    terbuka lebar.'
+  m_text: Rumah berwarna kream itu memiliki banyak jendela kayu dan kaca.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -22523,7 +22520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &988374034
 Transform:
   m_ObjectHideFlags: 0
@@ -23187,7 +23184,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013396997
 MonoBehaviour:
@@ -24976,10 +24973,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 202961347}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1.35, y: -0.315}
-  m_SizeDelta: {x: 2.7, y: 0.63}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116420492
 MonoBehaviour:
@@ -25073,7 +25070,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1116420493
@@ -32627,6 +32624,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1024400857}
     m_Modifications:
+    - target: {fileID: 137560359816894410, guid: 2286b6e0f81805246901d3f5a257ca42,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3975764291201042485, guid: 2286b6e0f81805246901d3f5a257ca42,
         type: 3}
       propertyPath: InitialModule.startLifetime.scalar
@@ -35338,10 +35340,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1013396996}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.285, y: -0.105}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554649555
 MonoBehaviour:
@@ -39513,7 +39515,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 8191da3920372ed45b7851bd2d56544e, type: 3}
   - text: Di belakang rumah itu tampak hutan dan kebun sawit.
     voiceClip: {fileID: 8300000, guid: be86a489d3178074fa49903d96d8c71e, type: 3}
-  - text: "\u201CRani, kita bisa tinggal di belakang rumah\r itu!\u201D"
+  - text: '"Rani kita bisa tinggal di belakang rumah itu!"'
     voiceClip: {fileID: 8300000, guid: 168846104e63c8f40be0d4196b6ddfde, type: 3}
   - text: seru Raka.
     voiceClip: {fileID: 8300000, guid: aa0a8dd34def0ae4f926a90a6e425858, type: 3}
@@ -41944,7 +41946,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1916587417
 Transform:
   m_ObjectHideFlags: 0
