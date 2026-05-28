@@ -154,10 +154,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 847738112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1.14, y: -0.11}
-  m_SizeDelta: {x: 2.28, y: 0.22}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5960872
 MonoBehaviour:
@@ -1078,15 +1078,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Di sebelah rumah Pangeran Ali, ada sebuah rumah panggung. Rumah itu terbuat
-      dari kayu dan memiliki tangga di depannya. Rumah itu berukuran kecil.
-    voiceClip: {fileID: 8300000, guid: b71d68c13ab23dc43b475ae36e7eb62c, type: 3}
-  - text: 'Dulunya, rumah itu digunakan sebagai tempat tinggal
+  - text: 'Di sebelah rumah Pangeran Ali, ada sebuah rumah panggung. Rumah itu
 
-      ajudan.'
+      terbuat
+      dari kayu dan memiliki tangga di depannya. Rumah itu berukuran kecil.'
+    voiceClip: {fileID: 8300000, guid: b71d68c13ab23dc43b475ae36e7eb62c, type: 3}
+  - text: Dulunya, rumah itu digunakan sebagai tempat tinggal ajudan.
     voiceClip: {fileID: 8300000, guid: 271606519f08d44489e57b0f008d0337, type: 3}
-  - text: Ketika masa perjuangan, rumah Pangeran Ali merupakan pusat kegiatan politik.
-      Ajudan tinggal di sebelah untuk berjaga-jaga.
+  - text: 'Ketika masa perjuangan, rumah Pangeran Ali merupakan pusat kegiatan
+
+      politik.
+      Ajudan tinggal di sebelah untuk berjaga-jaga.'
     voiceClip: {fileID: 8300000, guid: 7631dd4dbcbe08b4ea086e9b16ce0a3e, type: 3}
   dialogueText: {fileID: 2004487385}
   dialogueTextOutline: {fileID: 1194436613}
@@ -1467,7 +1469,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 4.41, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50640988
 MonoBehaviour:
@@ -2202,11 +2204,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Menuju ke lantai dua harus menggunakan tangga yang ada di ruang keluarga.
-      Di lantai atas ini hanya ada ruangan luas saja.
+  - text: 'Menuju ke lantai dua harus menggunakan tangga yang ada di ruang
+
+      keluarga.
+      Di lantai atas ini hanya ada ruangan luas saja.'
     voiceClip: {fileID: 8300000, guid: d0f32130d4f11a140aa0a188fa7073b6, type: 3}
-  - text: Ruangan atas ini dikelilingi jendela kaca. Jendela kaca kombinasi bentuk
-      persegi panjang dan oval.
+  - text: 'Ruangan atas ini dikelilingi jendela kaca.
+
+      Jendela kaca kombinasi
+      bentuk persegi panjang dan oval.'
     voiceClip: {fileID: 8300000, guid: 38ecb16821f92e14b8dc15c801d57fe9, type: 3}
   dialogueText: {fileID: 288527250}
   dialogueTextOutline: {fileID: 1195187618}
@@ -5692,8 +5698,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1.955, y: -0.21}
-  m_SizeDelta: {x: 3.91, y: 0.42}
+  m_AnchoredPosition: {x: 1.715, y: -0.21}
+  m_SizeDelta: {x: 3.43, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288527250
 MonoBehaviour:
@@ -5715,10 +5721,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Menuju ke lantai dua harus menggunakan tangga yang ada
+  m_text: 'Ruangan atas ini dikelilingi jendela kaca.
 
-    di ruang keluarga.
-    Di lantai atas ini hanya ada ruangan luas saja.'
+    Jendela kaca kombinasi
+    bentuk persegi panjang dan oval.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -15967,10 +15973,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 783098361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1.14, y: -0.11}
-  m_SizeDelta: {x: 2.28, y: 0.22}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680913066
 MonoBehaviour:
@@ -16613,7 +16619,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_SizeDelta: {x: 4.34, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700897210
 MonoBehaviour:
@@ -17353,7 +17359,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 2.81, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732142785
 MonoBehaviour:
@@ -17999,7 +18005,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 2.28, y: 0.22}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783098362
 MonoBehaviour:
@@ -19679,7 +19685,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 2.28, y: 0.22}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847738113
 MonoBehaviour:
@@ -22688,10 +22694,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 50640987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2.205, y: -0.105}
+  m_SizeDelta: {x: 4.41, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996292935
 MonoBehaviour:
@@ -26730,7 +26736,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_SizeDelta: {x: 4.16, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179467694
 MonoBehaviour:
@@ -27196,10 +27202,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 732142784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1.405, y: -0.21}
+  m_SizeDelta: {x: 2.81, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194405270
 MonoBehaviour:
@@ -28368,7 +28374,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1236927952
 Transform:
   m_ObjectHideFlags: 0
@@ -34692,7 +34698,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 3.91, y: 0.42}
+  m_SizeDelta: {x: 3.43, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519107854
 MonoBehaviour:
@@ -39676,7 +39682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1768915531
 Transform:
   m_ObjectHideFlags: 0
@@ -40345,14 +40351,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: 'Walau tidak dihuni, pada bagian ruang tamu masih
+  - text: 'Walau tidak dihuni, pada bagian ruang tamu masih terdapat kursi peninggalan
 
-      terdapat kursi
-      peninggalan keluarga Pangeran Ali. Kursi itu terbuat dari kayu dan anyaman
-      rotan.'
+      keluarga
+      Pangeran Ali. Kursi itu terbuat dari kayu dan anyaman rotan.'
     voiceClip: {fileID: 8300000, guid: 8db01c937efd1a945bc53a3da3172466, type: 3}
-  - text: Rumah ini sudah dijadikan cagar budaya. Siapa pun boleh berkunjung untuk
-      melihat dan mendapatkan informasi cerita bersejarah.
+  - text: 'Rumah ini sudah dijadikan cagar budaya. Siapa pun boleh berkunjung
+
+      untuk
+      melihat dan mendapatkan informasi cerita bersejarah.'
     voiceClip: {fileID: 8300000, guid: 9483ac11f71a19246812e1400da9e803, type: 3}
   dialogueText: {fileID: 1942019983}
   dialogueTextOutline: {fileID: 1489409804}
@@ -42789,8 +42796,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.285, y: -0.105}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_AnchoredPosition: {x: 2.08, y: -0.21}
+  m_SizeDelta: {x: 4.16, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1942019983
 MonoBehaviour:
@@ -42812,7 +42819,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Rumah ini sudah dijadikan cagar budaya. Siapa pun boleh berkunjung
+
+    untuk
+    melihat dan mendapatkan informasi cerita bersejarah.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -44392,8 +44402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.285, y: -0.105}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_AnchoredPosition: {x: 2.17, y: -0.21}
+  m_SizeDelta: {x: 4.34, y: 0.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004487385
 MonoBehaviour:
@@ -44415,7 +44425,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Ketika masa perjuangan, rumah Pangeran Ali merupakan pusat kegiatan
+
+    politik.
+    Ajudan tinggal di sebelah untuk berjaga-jaga.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
