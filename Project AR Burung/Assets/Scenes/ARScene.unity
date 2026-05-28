@@ -6516,10 +6516,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 883070517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.15, y: -0.055}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342220005
 MonoBehaviour:
@@ -9482,7 +9482,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434465831
 MonoBehaviour:
@@ -20385,7 +20385,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883070518
 MonoBehaviour:
@@ -21648,10 +21648,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 434465830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.15, y: -0.055}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930716266
 MonoBehaviour:
@@ -22495,9 +22495,7 @@ MonoBehaviour:
       suku Rejang.
       Di sebuah pohon besar dan rindang'
     voiceClip: {fileID: 8300000, guid: d2802dfa6f7c6634cb8257e2035ee5a9, type: 3}
-  - text: 'Dua
-
-      burung yang bersahabat itu bernama Raka dan Rani.'
+  - text: Dua burung yang bersahabat itu bernama Raka dan Rani.
     voiceClip: {fileID: 8300000, guid: 1c073dc8d97d8de4c84e878c0bf59385, type: 3}
   - text: "Rumah itu bernama \u201CUmaek Potong Jang\u201D"
     voiceClip: {fileID: 8300000, guid: ed4eeae467854fa4aadcfbc70f15fbac, type: 3}
@@ -26585,7 +26583,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1176384711
 Transform:
   m_ObjectHideFlags: 0
@@ -35891,7 +35889,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1565512778
 Transform:
   m_ObjectHideFlags: 0
