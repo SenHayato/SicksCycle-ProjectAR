@@ -179,10 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rani dan Raka senang bermain di rumah itu. Rumah bersejarah di wilayah
-
-    yang
-    masih asri. Lingkungan tenang dan langit yang berseri.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f95239f3489fdc541b99a880372b84ec, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: f95239f3489fdc541b99a880372b84ec,
@@ -249,7 +246,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &5960873
@@ -2569,7 +2566,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &116940260
@@ -5115,10 +5112,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Umaek Potong Jang menjadi tempat bermain kedua burung itu.
-
-    Mereka
-    sering masuk ke dalam rumah atau terbang di bawah kolong rumah.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -5721,10 +5715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ruangan atas ini dikelilingi jendela kaca.
-
-    Jendela kaca kombinasi
-    bentuk persegi panjang dan oval.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -7828,7 +7819,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Rani kita bisa tinggal di belakang rumah itu!"'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -15867,7 +15858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Rumah berwarna kream itu memiliki banyak jendela kayu dan kaca.
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -16002,10 +15993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rani dan Raka senang bermain di rumah itu. Rumah bersejarah di wilayah
-
-    yang
-    masih asri. Lingkungan tenang dan langit yang berseri.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -16370,10 +16358,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai,
-
-    wilayah
-    yang tidak jauh dari Desa Napal Putih.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -17789,10 +17774,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Namun, ada satu rumah berukuran kecil
-
-    berbentuk rumah panggung di
-    sebelahnya.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -22733,7 +22715,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ada pintu belakang yang mengarah ke area halaman belakang dan kebun.
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -25016,12 +24998,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mereka masuk ke dalam rumah yang luas itu.
-
-    Mereka masuk dari jendela
-    kayu yang
-
-    terbuka lebar.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f95239f3489fdc541b99a880372b84ec, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: f95239f3489fdc541b99a880372b84ec,
@@ -25284,10 +25261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Anak perempuan akan tidur di bagian atas rumah.
-
-    Tepatnya di loteng
-    atau geligei.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -25422,10 +25396,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rani dan Raka terbang tinggi. Sesekali mereka terhalang
-
-    angin yang
-    sangat kencang.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -27241,9 +27212,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Di area belakang, terdapat sumur, satu kamar,
-
-    dan satu kamar mandi.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f95239f3489fdc541b99a880372b84ec, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: f95239f3489fdc541b99a880372b84ec,
@@ -27513,10 +27482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Menuju ke lantai dua harus menggunakan tangga yang ada
-
-    di ruang keluarga.
-    Di lantai atas ini hanya ada ruangan luas saja.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f95239f3489fdc541b99a880372b84ec, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: f95239f3489fdc541b99a880372b84ec,
@@ -33498,10 +33464,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Lumbung padi biasanya terletak di belakang atau depan rumah.
-
-    Lumbung
-    padi digunakan untuk menyimpan hasil panen.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -38380,8 +38343,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Halo Adik - adik, hari ini kita akan membaca buku berjudul "Rumah Kita
-    di Bengkulu"
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -42833,10 +42795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rumah ini sudah dijadikan cagar budaya. Siapa pun boleh berkunjung
-
-    untuk
-    melihat dan mendapatkan informasi cerita bersejarah.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -44439,10 +44398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ketika masa perjuangan, rumah Pangeran Ali merupakan pusat kegiatan
-
-    politik.
-    Ajudan tinggal di sebelah untuk berjaga-jaga.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -44879,12 +44835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Mereka melihat rumah bersejarah
-
-    milik Pangeran Ali. Rumah itu bertingkat
-
-    dan
-    besar.'
+  m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f95239f3489fdc541b99a880372b84ec, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: f95239f3489fdc541b99a880372b84ec,
@@ -44951,7 +44902,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &2040734169
