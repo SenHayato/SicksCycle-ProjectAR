@@ -6822,7 +6822,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &358423997
 Transform:
   m_ObjectHideFlags: 0
@@ -7745,11 +7745,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogues:
-  - text: Ada satu kamar untuk orang tua. Anak-anak tidur dan beristirahat di ruang
-      terbuka, kecuali anak perempuan.
+  - text: 'Ada satu kamar untuk orang tua.
+
+      Anak-anak tidur dan beristirahat
+      di ruang terbuka, kecuali anak perempuan.'
     voiceClip: {fileID: 8300000, guid: adb5f7f1da9544f4dad8e9f18ef136d6, type: 3}
-  - text: Anak perempuan akan tidur di bagian atas rumah. Tepatnya di loteng atau
-      geligei.
+  - text: 'Anak perempuan akan tidur di bagian atas rumah.
+
+      Tepatnya di loteng
+      atau geligei.'
     voiceClip: {fileID: 8300000, guid: 3777a79d475e38e4d9c3a2e56aee594c, type: 3}
   dialogueText: {fileID: 1123209093}
   dialogueTextOutline: {fileID: 1988826468}
@@ -10496,7 +10500,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476342837
 MonoBehaviour:
@@ -16877,10 +16881,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1041431234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.285, y: -0.105}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714033485
 MonoBehaviour:
@@ -23624,7 +23628,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041431235
 MonoBehaviour:
@@ -25242,10 +25246,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 476342836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.285, y: -0.105}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1123209093
 MonoBehaviour:
@@ -25267,7 +25271,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: 'Anak perempuan akan tidur di bagian atas rumah.
+
+    Tepatnya di loteng
+    atau geligei.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 209defd01934107409b603f695b222b8, type: 2}
   m_sharedMaterial: {fileID: 3662195725507431181, guid: 209defd01934107409b603f695b222b8,
@@ -33702,7 +33709,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488899444
 MonoBehaviour:
@@ -39264,7 +39271,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746822492
 MonoBehaviour:
@@ -41524,7 +41531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1896768398
 Transform:
   m_ObjectHideFlags: 0
@@ -43646,10 +43653,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1488899443}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.285, y: -0.105}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982916309
 MonoBehaviour:
@@ -44034,10 +44041,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1746822491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.285, y: -0.105}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988826468
 MonoBehaviour:
