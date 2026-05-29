@@ -1348,7 +1348,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50069675
 MonoBehaviour:
@@ -2474,10 +2474,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1372616285}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.285, y: -0.105}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116940259
 MonoBehaviour:
@@ -7206,16 +7206,13 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 220b143d4b324844a9783d936e35ccd1, type: 3}
   - text: kata Rani.
     voiceClip: {fileID: 8300000, guid: 1632522f792089a4d93ca69e4d3cbcc1, type: 3}
-  - text: 'AK. Gani bernama lengkap Adnan Kapau Gani. Ia seorang Gubernur Militer.
-
-      Ia
-      bertugas pada masa agresi Belanda ke wilayah Indonesia termasuk Bengkulu.'
+  - text: AK. Gani bernama lengkap Adnan Kapau Gani. Ia seorang Gubernur Militer.
     voiceClip: {fileID: 8300000, guid: 872a7a4246704a148863086494ecc8c1, type: 3}
-  - text: 'Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai,
-
-      wilayah
-      yang tidak jauh dari Desa Napal Putih.'
+  - text: Ia bertugas pada masa agresi Belanda ke wilayah Indonesia termasuk Bengkulu.
     voiceClip: {fileID: 8300000, guid: 5a30bb8cb44a9bf45b5999d3de8ec468, type: 3}
+  - text: Ia mengusir Belanda yang ingin menguasai emas di Lebong Tandai, wilayah
+      yang tidak jauh dari Desa Napal Putih.
+    voiceClip: {fileID: 8300000, guid: 1632522f792089a4d93ca69e4d3cbcc1, type: 3}
   dialogueText: {fileID: 694395973}
   dialogueTextOutline: {fileID: 116940259}
   textFadeDuration: 0.5
@@ -7629,7 +7626,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &380583544
 Transform:
   m_ObjectHideFlags: 0
@@ -7922,10 +7919,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 478804331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.285, y: -0.105}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382628655
 MonoBehaviour:
@@ -10771,7 +10768,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478804332
 MonoBehaviour:
@@ -16606,10 +16603,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 50069674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.285, y: -0.105}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &694395973
 MonoBehaviour:
@@ -23834,7 +23831,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013396997
 MonoBehaviour:
@@ -32450,7 +32447,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.57, y: 0.21}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372616286
 MonoBehaviour:
@@ -36056,10 +36053,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1013396996}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.285, y: -0.105}
+  m_SizeDelta: {x: 0.57, y: 0.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554649555
 MonoBehaviour:
@@ -42695,7 +42692,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1916587417
 Transform:
   m_ObjectHideFlags: 0
