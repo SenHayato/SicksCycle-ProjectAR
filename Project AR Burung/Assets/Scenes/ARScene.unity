@@ -14230,10 +14230,6 @@ MonoBehaviour:
   - text: Halo Adik - adik, hari ini kita akan membaca buku berjudul "Rumah Kita
       di Bengkulu"
     voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
-  - text: Buku ini di tulis Kak Ira Diana dan Ilustratornya Kak Muhammad Basri Assegaf
-    voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
-  - text: Yuk kita mulai membacanya
-    voiceClip: {fileID: 8300000, guid: 0c7da2020efbf014dadb4c567e3004c0, type: 3}
   dialogueText: {fileID: 1686339564}
   dialogueTextOutline: {fileID: 1150107784}
   textFadeDuration: 0.5
