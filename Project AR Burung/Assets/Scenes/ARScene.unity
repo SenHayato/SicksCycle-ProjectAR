@@ -36673,7 +36673,7 @@ Transform:
   m_GameObject: {fileID: 1572093404}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.2, y: -10.7, z: -3.5}
+  m_LocalPosition: {x: 4.73, y: -10.7, z: -3.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -36731,27 +36731,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1572093407
-MonoBehaviour:
+--- !u!111 &1572093407
+Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572093404}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 663f506df686ebf479589106afa6cb5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animationType: 1
-  introAnimation: {fileID: 0}
-  startRotation: 0
-  endRotation: 0
-  startPosition: {x: -4.2, y: -10.7, z: -3.5}
-  endPosition: {x: -4.2, y: -10.45, z: -3.5}
-  animationDuration: 0.9
-  timeBeforeTween: 0
-  animationEase: 4
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: dc9271fbd6d549945a94e65efa7a8f15, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: dc9271fbd6d549945a94e65efa7a8f15, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1574930932
 GameObject:
   m_ObjectHideFlags: 0
@@ -41156,8 +41151,8 @@ Transform:
   m_GameObject: {fileID: 1806177030}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 7.8400035, z: -3.5000024}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 8.13, z: -3.5}
+  m_LocalScale: {x: 1.161134, y: 1.161134, z: 1.161134}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 591573562}
@@ -41230,8 +41225,8 @@ MonoBehaviour:
   introAnimation: {fileID: 0}
   startRotation: 0
   endRotation: 0
-  startPosition: {x: 0, y: 7.8400035, z: -3.5000024}
-  endPosition: {x: 0, y: 8.34, z: -3.5}
+  startPosition: {x: 0, y: 8.13, z: -3.5}
+  endPosition: {x: 0, y: 8.45, z: -3.5}
   animationDuration: 0.9
   timeBeforeTween: 0
   animationEase: 4
