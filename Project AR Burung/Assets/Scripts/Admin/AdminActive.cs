@@ -11,9 +11,10 @@ public class AdminActive : MonoBehaviour
         Application.targetFrameRate = maxFrameRate;
     }
 
-    void ExitApplication()
+    public void ExitApplication()
     {
         Application.Quit();
+        Debug.Log("Quit APP");
     }
 
     void Update()
