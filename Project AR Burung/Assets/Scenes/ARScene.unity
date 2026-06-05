@@ -154,10 +154,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 847738112}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.15, y: -0.055}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &5960872
 MonoBehaviour:
@@ -1208,10 +1208,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 165429708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44270862
 MonoBehaviour:
@@ -1349,7 +1349,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50069675
 MonoBehaviour:
@@ -1467,7 +1467,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &50640988
 MonoBehaviour:
@@ -1687,7 +1687,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56816211
 MonoBehaviour:
@@ -2313,7 +2313,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &93430832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2397,13 +2397,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 8-9
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -2439,8 +2439,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 93430833}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 8-9
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 93430833}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -2476,10 +2476,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1372616285}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116940259
 MonoBehaviour:
@@ -2831,7 +2831,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165429709
 MonoBehaviour:
@@ -3013,7 +3013,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &169946184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3097,13 +3097,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 20-21
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -3139,8 +3139,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 169946185}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 20-21
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 169946185}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -3807,7 +3807,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 2.8}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202961348
 MonoBehaviour:
@@ -4211,7 +4211,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &218547446
 MonoBehaviour:
@@ -4484,7 +4484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &222397496
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4568,13 +4568,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 12-13
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -4610,8 +4610,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 222397497}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 12-13
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 222397497}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -5232,7 +5232,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 2.8}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &279196809
 MonoBehaviour:
@@ -5466,7 +5466,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &283743978
 MonoBehaviour:
@@ -5694,10 +5694,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1519107853}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &288527250
 MonoBehaviour:
@@ -6650,10 +6650,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 883070517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.15, y: -0.055}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342220005
 MonoBehaviour:
@@ -7925,10 +7925,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 478804331}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &382628655
 MonoBehaviour:
@@ -9624,7 +9624,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434465831
 MonoBehaviour:
@@ -10516,10 +10516,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 283743977}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &474036266
 MonoBehaviour:
@@ -10657,7 +10657,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476342837
 MonoBehaviour:
@@ -10775,7 +10775,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &478804332
 MonoBehaviour:
@@ -12233,7 +12233,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &532730067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12317,13 +12317,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 30-31
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -12359,8 +12359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 532730068}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 30-31
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 532730068}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -13122,10 +13122,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 883708905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565817233
 MonoBehaviour:
@@ -13447,7 +13447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &574116441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13531,13 +13531,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 18-19
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -13573,8 +13573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 574116442}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 18-19
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 574116442}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -14262,7 +14262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &623566462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14346,13 +14346,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 32-33
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -14388,8 +14388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 623566463}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 32-33
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 623566463}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -14955,10 +14955,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1243393726}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.2650001, y: -0.1}
-  m_SizeDelta: {x: 0.5300002, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &641050661
 MonoBehaviour:
@@ -16110,10 +16110,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 279196808}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &679234381
 MonoBehaviour:
@@ -16245,10 +16245,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 783098361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.15, y: -0.055}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680913066
 MonoBehaviour:
@@ -16610,10 +16610,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 50069674}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &694395973
 MonoBehaviour:
@@ -16888,7 +16888,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &700897210
 MonoBehaviour:
@@ -17151,10 +17151,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1041431234}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714033485
 MonoBehaviour:
@@ -17761,7 +17761,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732142785
 MonoBehaviour:
@@ -18159,10 +18159,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2111231389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &776861451
 MonoBehaviour:
@@ -18402,7 +18402,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &783098362
 MonoBehaviour:
@@ -19155,7 +19155,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &813367800
 MonoBehaviour:
@@ -19672,7 +19672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &843822710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19756,13 +19756,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 24-25
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -19798,8 +19798,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 843822711}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 24-25
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 843822711}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -20092,7 +20092,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847738113
 MonoBehaviour:
@@ -21065,7 +21065,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883070518
 MonoBehaviour:
@@ -21183,7 +21183,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883708906
 MonoBehaviour:
@@ -22328,10 +22328,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 434465830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.15, y: -0.055}
-  m_SizeDelta: {x: 0.3, y: 0.11}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930716266
 MonoBehaviour:
@@ -23614,10 +23614,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 50640987}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &996292935
 MonoBehaviour:
@@ -24108,7 +24108,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1013396997
 MonoBehaviour:
@@ -24489,7 +24489,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1041431235
 MonoBehaviour:
@@ -25382,7 +25382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1093221034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25466,13 +25466,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 6-7
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -25508,8 +25508,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1093221035}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 6-7
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1093221035}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -25879,7 +25879,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1108493673
 MonoBehaviour:
@@ -25991,10 +25991,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 202961347}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1116420492
 MonoBehaviour:
@@ -26254,10 +26254,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 476342836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1123209093
 MonoBehaviour:
@@ -26389,10 +26389,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 813367799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1125874409
 MonoBehaviour:
@@ -27739,7 +27739,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179467694
 MonoBehaviour:
@@ -28205,10 +28205,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 732142784}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194405270
 MonoBehaviour:
@@ -28340,10 +28340,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 56816210}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1194436613
 MonoBehaviour:
@@ -28475,10 +28475,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 218547445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1195187618
 MonoBehaviour:
@@ -29143,7 +29143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1236795664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29227,13 +29227,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 26-27
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -29269,8 +29269,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1236795665}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 26-27
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1236795665}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -29340,10 +29340,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2070459346}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.2650001, y: -0.1}
-  m_SizeDelta: {x: 0.5300002, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1242739272
 MonoBehaviour:
@@ -29481,7 +29481,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.424}
-  m_SizeDelta: {x: -4.0629997, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1243393727
 MonoBehaviour:
@@ -32625,7 +32625,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372616286
 MonoBehaviour:
@@ -33520,8 +33520,8 @@ MonoBehaviour:
   mDataSetPath: Vuforia/AR-Sick-Cycle.xml
   mAspectRatio: 0.70711553
   mImageTargetType: 0
-  mWidth: 2.25
-  mHeight: 1.59101
+  mWidth: 4.5
+  mHeight: 3.18202
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -34136,8 +34136,8 @@ MonoBehaviour:
   mDataSetPath: Vuforia/AR-Sick-Cycle.xml
   mAspectRatio: 0.70711553
   mImageTargetType: 0
-  mWidth: 2.25
-  mHeight: 1.59101
+  mWidth: 4.5
+  mHeight: 3.18202
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -34402,10 +34402,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1108493672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1451908777
 MonoBehaviour:
@@ -34692,7 +34692,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1488899444
 MonoBehaviour:
@@ -34804,10 +34804,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 2000241072}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489409804
 MonoBehaviour:
@@ -34925,7 +34925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1491536031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35009,13 +35009,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 22-23
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -35051,8 +35051,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1491536032}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 22-23
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1491536032}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -35672,7 +35672,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1519107854
 MonoBehaviour:
@@ -36234,10 +36234,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1013396996}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554649555
 MonoBehaviour:
@@ -36805,7 +36805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1565512778
 Transform:
   m_ObjectHideFlags: 0
@@ -37722,7 +37722,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1611108390
 MonoBehaviour:
@@ -37922,7 +37922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1619670474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38315,7 +38315,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.668, y: 2.735}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652490243
 MonoBehaviour:
@@ -38641,7 +38641,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1673066574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38725,13 +38725,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 34
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 1.4122382
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 2.25
+  mHeight: 3.177536
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -38767,8 +38767,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1673066575}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 34
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1673066575}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -39807,10 +39807,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1611108389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1712056175
 MonoBehaviour:
@@ -40274,7 +40274,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1746822492
 MonoBehaviour:
@@ -40812,7 +40812,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1774392584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40896,13 +40896,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 10-11
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -40938,8 +40938,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1774392585}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 10-11
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1774392585}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -43628,7 +43628,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1930324323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43712,13 +43712,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 14-15
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -43754,8 +43754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1930324324}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 14-15
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1930324324}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -44018,10 +44018,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1179467693}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1942019983
 MonoBehaviour:
@@ -44896,10 +44896,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1488899443}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982916309
 MonoBehaviour:
@@ -45284,10 +45284,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1746822491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1988826468
 MonoBehaviour:
@@ -45425,7 +45425,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2000241073
 MonoBehaviour:
@@ -45621,10 +45621,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 700897209}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004487385
 MonoBehaviour:
@@ -46058,10 +46058,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1652490242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040734168
 MonoBehaviour:
@@ -46343,7 +46343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2045624568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46427,13 +46427,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 28-29
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -46469,8 +46469,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2045624569}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 28-29
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 2045624569}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -46720,7 +46720,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: 0, y: 0.424}
-  m_SizeDelta: {x: -4.0629997, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070459347
 MonoBehaviour:
@@ -47313,7 +47313,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.668, y: 2.735}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111231390
 MonoBehaviour:
@@ -47765,7 +47765,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2132468721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47849,13 +47849,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 16-17
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.706914
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 4.5
+  mHeight: 3.181113
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -47891,8 +47891,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 2132468722}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 16-17
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 2132468722}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
