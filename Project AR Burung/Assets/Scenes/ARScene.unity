@@ -4093,7 +4093,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &216234137
 MonoBehaviour:
@@ -5091,10 +5091,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 486401250}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265742771
 MonoBehaviour:
@@ -6650,10 +6650,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 883070517}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.15, y: -0.055}
+  m_SizeDelta: {x: 0.3, y: 0.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &342220005
 MonoBehaviour:
@@ -8151,7 +8151,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &386178726
 MonoBehaviour:
@@ -8513,10 +8513,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 386178725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394278590
 MonoBehaviour:
@@ -9624,7 +9624,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.3, y: 0.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &434465831
 MonoBehaviour:
@@ -11186,7 +11186,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &486401251
 MonoBehaviour:
@@ -13604,7 +13604,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.13124974, y: 0.1312498, z: 0.1312498}
+  m_LocalScale: {x: 0.13124974, y: 0.13124983, z: 0.13124983}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 690975565}
@@ -21065,7 +21065,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 1.1, y: 0.424}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.3, y: 0.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &883070518
 MonoBehaviour:
@@ -21914,7 +21914,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 2.2965, y: 0.42400002}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919201220
 MonoBehaviour:
@@ -22328,10 +22328,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 434465830}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.15, y: -0.055}
+  m_SizeDelta: {x: 0.3, y: 0.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930716266
 MonoBehaviour:
@@ -27608,7 +27608,7 @@ Transform:
   m_GameObject: {fileID: 1176384710}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.79999995, y: 0.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 0.13125, y: 0.13125005, z: 0.13125005}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31261,7 +31261,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1329554682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31345,13 +31345,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: covercut
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 1.4139111
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 2.25
+  mHeight: 3.1813
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -31387,8 +31387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1329554683}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: covercut
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1329554683}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -33431,7 +33431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1422962433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33515,13 +33515,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 4-5
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.70711553
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 2.25
+  mHeight: 1.59101
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -33538,7 +33538,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.38, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 577469826}
   m_Father: {fileID: 0}
@@ -33557,8 +33557,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1422962434}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 4-5
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1422962434}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -34047,7 +34047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1439730384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34131,13 +34131,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: apelkarakter
+  mTrackableName: 2-3
   mInitializedInEditor: 1
-  mDataSetPath: Vuforia/EdukasiSampah.xml
-  mAspectRatio: 1
+  mDataSetPath: Vuforia/AR-Sick-Cycle.xml
+  mAspectRatio: 0.70711553
   mImageTargetType: 0
-  mWidth: 1
-  mHeight: 1
+  mWidth: 2.25
+  mHeight: 1.59101
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -34154,7 +34154,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.08, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1563071702}
   m_Father: {fileID: 0}
@@ -34173,8 +34173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1439730385}
   mHiddenRoot: {fileID: 0}
-  mTargetName: apelkarakter
-  mDatasetName: Vuforia/EdukasiSampah.xml
+  mTargetName: 2-3
+  mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1439730385}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -36782,7 +36782,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.13125, y: 0.13125005, z: 0.13125005}
+  m_LocalScale: {x: 0.13125, y: 0.13125008, z: 0.13125008}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1678627075}
@@ -36805,7 +36805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1565512778
 Transform:
   m_ObjectHideFlags: 0
@@ -37922,7 +37922,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1619670474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41198,10 +41198,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 919201219}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803345900
 MonoBehaviour:
@@ -46934,10 +46934,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 216234136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0.265, y: -0.1}
-  m_SizeDelta: {x: 0.53, y: 0.2}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098470810
 MonoBehaviour:
