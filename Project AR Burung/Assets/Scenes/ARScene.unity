@@ -96,8 +96,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 73d9086c869596d4186bd4ecba02e0cb,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 371381bb5da31ba499586488ef617f37,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -44032,7 +44034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8bca95f7c947b4db5fb152a0d693d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anisotropy: 0.25
+  anisotropy: 0.496
   scattering: 4.6
   radius: 0.126
 --- !u!114 &1969714810
@@ -44070,8 +44072,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.9924528, g: 0.8379858, b: 0.020598056, a: 1}
-  m_Intensity: 3.8
-  m_Range: 4.3930674
+  m_Intensity: 3
+  m_Range: 4.3
   m_SpotAngle: 58.368843
   m_InnerSpotAngle: 39.284153
   m_CookieSize: 10
@@ -44109,7 +44111,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 0
