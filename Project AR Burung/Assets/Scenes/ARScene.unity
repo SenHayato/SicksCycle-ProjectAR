@@ -21374,7 +21374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 887537500}
   - component: {fileID: 887537503}
-  - component: {fileID: 887537501}
+  - component: {fileID: 887537504}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -21403,7 +21403,15 @@ RectTransform:
   m_AnchoredPosition: {x: 96, y: -73}
   m_SizeDelta: {x: 109.58, y: 68.16}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &887537501
+--- !u!222 &887537503
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887537499}
+  m_CullTransparentMesh: 1
+--- !u!114 &887537504
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21412,7 +21420,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 887537499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Script: {fileID: 11500000, guid: db76560077d2e284da40907c94559784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
@@ -21425,8 +21433,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -21459,14 +21467,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!222 &887537503
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887537499}
-  m_CullTransparentMesh: 1
 --- !u!1 &892722118
 GameObject:
   m_ObjectHideFlags: 0
