@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     [SerializeField] string ARScene;
+    [SerializeField] GameObject creditPanel;
+
+    private void Start()
+    {
+        creditPanel.SetActive(false);
+    }
 
     public void LoadtoAR()
     {
