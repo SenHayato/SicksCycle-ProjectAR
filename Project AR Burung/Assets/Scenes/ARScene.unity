@@ -6504,8 +6504,8 @@ Transform:
   m_GameObject: {fileID: 338042381}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.13124974, y: 0.1312498, z: 0.1312498}
+  m_LocalPosition: {x: -1.1500001, y: 0.1, z: 0}
+  m_LocalScale: {x: 0.13124974, y: 0.13124986, z: 0.13124986}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 508545478}
@@ -13775,13 +13775,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 18
+  mTrackableName: 19
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/AR-Sick-Cycle.xml
-  mAspectRatio: 1.3504044
+  mAspectRatio: 1.3333334
   mImageTargetType: 0
   mWidth: 2.25
-  mHeight: 3.03841
+  mHeight: 3
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -13796,7 +13796,7 @@ Transform:
   m_GameObject: {fileID: 574116439}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.23, y: 0, z: -4.98}
+  m_LocalPosition: {x: 17.517, y: 0, z: -4.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13817,7 +13817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 574116442}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 18
+  mTargetName: 19
   mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 574116442}
   mMeshFilter: {fileID: 0}
@@ -29384,13 +29384,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 26-27
+  mTrackableName: 26
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/AR-Sick-Cycle.xml
-  mAspectRatio: 0.706914
+  mAspectRatio: 1.3333334
   mImageTargetType: 0
-  mWidth: 4.5
-  mHeight: 3.181113
+  mWidth: 2.25
+  mHeight: 3
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -29405,7 +29405,7 @@ Transform:
   m_GameObject: {fileID: 1236795662}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.92, y: 0, z: -10.06}
+  m_LocalPosition: {x: 6.07, y: 0, z: -10.06}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29426,7 +29426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1236795665}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 26-27
+  mTargetName: 26
   mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1236795665}
   mMeshFilter: {fileID: 0}
@@ -43291,8 +43291,8 @@ Transform:
   m_GameObject: {fileID: 1916587416}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 1.14, y: 0.1, z: 0}
-  m_LocalScale: {x: 0.13124974, y: 0.1312498, z: 0.1312498}
+  m_LocalPosition: {x: -1.1470013, y: 0.1, z: 0}
+  m_LocalScale: {x: 0.13124974, y: 0.13124983, z: 0.13124983}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 230013310}
