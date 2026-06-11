@@ -25514,13 +25514,13 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: 6
+  mTrackableName: 6-New
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/AR-Sick-Cycle.xml
-  mAspectRatio: 1.3333333
+  mAspectRatio: 1.33346
   mImageTargetType: 0
-  mWidth: 2.26
-  mHeight: 3.013333
+  mWidth: 2.25
+  mHeight: 3.000285
   mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
@@ -25556,7 +25556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1093221035}
   mHiddenRoot: {fileID: 0}
-  mTargetName: 6
+  mTargetName: 6-New
   mDatasetName: Vuforia/AR-Sick-Cycle.xml
   mCastedBehaviour: {fileID: 1093221035}
   mMeshFilter: {fileID: 0}
