@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="6-7_Text" size="4.500000 3.182000" />
     <ImageTarget name="6-7copy" size="4.500000 3.180822" />
     <ImageTarget name="6-New" size="2.250000 3.000285" />
     <ImageTarget name="19" size="2.250000 3.000000" />
@@ -19,7 +20,6 @@
     <ImageTarget name="12-13" size="4.500000 3.181113" />
     <ImageTarget name="10-11" size="4.500000 3.181113" />
     <ImageTarget name="8-9" size="4.500000 3.181113" />
-    <ImageTarget name="6-7" size="4.500000 3.181113" />
     <ImageTarget name="4-5" size="4.500000 3.182020" />
     <ImageTarget name="2-3" size="4.500000 3.182020" />
     <ImageTarget name="covercut" size="2.250000 3.181300" />
