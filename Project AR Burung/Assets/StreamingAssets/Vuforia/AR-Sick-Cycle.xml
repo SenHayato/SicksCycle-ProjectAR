@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="6-7copy" size="4.500000 3.180822" />
     <ImageTarget name="6-New" size="2.250000 3.000285" />
     <ImageTarget name="19" size="2.250000 3.000000" />
     <ImageTarget name="26" size="2.250000 3.000000" />
