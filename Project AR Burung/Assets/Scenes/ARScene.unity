@@ -48220,6 +48220,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WindEffectKecilSayap
       objectReference: {fileID: 0}
+    - target: {fileID: 5088623913780830677, guid: 2286b6e0f81805246901d3f5a257ca42,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8786325943181433110, guid: 2286b6e0f81805246901d3f5a257ca42,
         type: 3}
       propertyPath: m_LocalPosition.x
